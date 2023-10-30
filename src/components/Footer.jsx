@@ -43,7 +43,7 @@ function Footer() {
             </a>
         </div>
         <p className="mt-8 text-base leading-6 text-center text-white">
-            © 2022 kari's beauty center, All rights reserved.
+            © 2024 art du soin, All rights reserved.
         </p>
     </div>
 </section>  

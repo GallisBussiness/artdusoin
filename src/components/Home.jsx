@@ -1,27 +1,30 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from 'react'
- import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { BackgroundImage,Image } from '@mantine/core';
+import Autoplay from 'embla-carousel-autoplay';
+import { Carousel } from '@mantine/carousel';
+import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
 
 function Home() {
+  const autoplay = useRef(Autoplay({ delay: 2000 }));
     return (
         <div className="bg-white">
-  <section className="text-white font-lora bg-black">
+  <BackgroundImage src="/pexel_visage.jpg" className="text-black font-lora bg-amber-50 opacity-70">
   <div className="container px-10 py-10 mx-auto flex flex-col-reverse md:flex-row-reverse flex-wrap justify-center">
     <div className="lg:w-2/5 md:w-full md:pr-16 lg:pr-0 pr-0 mb-8 mr-10 flex flex-col items-center justify-center">
-    <img src="/Logo_K.jpg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4" />
+    <img src="/logo.jpg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4" />
       {/* <h1 className="text-5xl text-white uppercase">Ckesthetik</h1> */}
-      <p className="leading-relaxed mt-4 text-lg text-white">
+      <p className="leading-relaxed mt-4 text-lg font-bold text-white">
       CENTRE DE FORMATION
       AUX MÉTIERS DE LA BEAUTÉ</p>
     </div>
     <div className="lg:w-3/6 md:w-full rounded-lg p-4 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
      <div className="flex items-center justify-center mr-20 space-x-1">
-     <img src="/pexel_visage.jpg" alt="centre de beauté" className="rounded-lg  h-60 w-full object-cover object-center" />
+     {/* <img src="/pexel_visage.jpg" alt="centre de beauté" className="rounded-lg  h-60 w-full object-cover object-center" /> */}
      </div>
     </div>
   </div>
-</section>
+</BackgroundImage>
 <section className="py-10 md:py-20 text-gray-700 bg-white bg font-lora">
   <div className="container px-5 md:px-40 items-center mx-auto">
   <div className="w-full">
@@ -38,8 +41,8 @@ function Home() {
       « Des compétences au service d’une éthique ».
 </p>
      </div>
-     
-     <ul>
+     <div className="flex flex-col md:flex-row items-center justify-between md:mx-5 my-2">
+      <ul>
             <li className="flex items-center py-2 space-x-4 xl:py-3">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -76,7 +79,53 @@ function Home() {
 </svg>
               <span className="font-medium text-gray-800">Audit d'institut de beauté</span>
             </li>
-    </ul>        </div>
+    </ul> 
+<div className="w-2/3 mx-auto">
+ <Carousel slideSize="80%" height={400} slideGap="md"  plugins={[autoplay.current]}
+      onMouseEnter={autoplay.current.stop}
+      onMouseLeave={autoplay.current.reset} loop>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/bannerd3.jpg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/bannerd4.jpg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/bannerd5.jpg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/diapo2.jpeg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/diapo3.jpeg"
+    />
+     </Carousel.Slide>
+    </Carousel>
+</div>
+   
+     </div>
+            
+    
+    </div>
   </div>
 </section>
 <section className="mt-3 font-lora container space-y-2 md:space-y-0 mx-auto w-full md:w-full px-40">
