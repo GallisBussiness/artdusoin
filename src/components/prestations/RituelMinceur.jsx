@@ -14,7 +14,7 @@ function RituelMinceur() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  55 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -36,7 +36,7 @@ function RituelMinceur() {
                     Durée : 1h 30 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  45 000 F CFA
+                  70 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -59,7 +59,7 @@ function RituelMinceur() {
                     Durée : 30 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  35 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">

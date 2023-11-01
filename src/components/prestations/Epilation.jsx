@@ -16,7 +16,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 000 F CFA
+                  9,50 €
                   </div>
                 </div>
                  </div>
@@ -32,7 +32,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 000 F CFA
+                  9,50 €
                   </div>
                 </div>
                  </div>
@@ -48,7 +48,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  5 000 F CFA
+                  10 €
                   </div>
                 </div>
                  </div>
@@ -64,7 +64,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 000 F CFA
+                  9,50 €
                   </div>
                 </div>
                  </div>
@@ -82,7 +82,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  10 000 F CFA
+                  15 €
                   </div>
                 </div>
                  </div>
@@ -98,7 +98,7 @@ function Epilation() {
                     Durée : 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  5 000 F CFA
+                  15 €
                   </div>
                 </div>
                  </div>
@@ -114,7 +114,7 @@ function Epilation() {
                     Durée : 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  5 000 F CFA
+                  15 €
                   </div>
                 </div>
                  </div>
@@ -130,7 +130,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  10 000 F CFA
+                  20 €
                   </div>
                 </div>
                  </div>
@@ -146,7 +146,7 @@ function Epilation() {
                     Durée : 1 h 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  100 000 F CFA
+                  100 000 €
                   </div>
                 </div>
                  </div>
@@ -162,7 +162,7 @@ function Epilation() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  70 000 F CFA
+                  70 000 €
                   </div>
                 </div>
                  </div>
@@ -180,7 +180,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  8 000 F CFA
+                  8 000 €
                   </div>
                 </div>
                  </div>
@@ -196,7 +196,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  6 000 F CFA
+                  6 000 €
                   </div>
                 </div>
                  </div>
@@ -212,7 +212,7 @@ function Epilation() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  8 000 F CFA
+                  8 000 €
                   </div>
                 </div>
                  </div>
@@ -228,7 +228,7 @@ function Epilation() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  14 000 F CFA
+                  14 000 €
                   </div>
                 </div>
                  </div>
@@ -244,7 +244,7 @@ function Epilation() {
                     Durée : 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  12 000 F CFA
+                  12 000 €
                   </div>
                 </div>
                  </div>
@@ -260,7 +260,7 @@ function Epilation() {
                     Durée : 45 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  15 000 €
                   </div>
                 </div>
                  </div>
@@ -276,7 +276,7 @@ function Epilation() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  1 F CFA
+                  1 €
                   </div>
                 </div>
                  </div>
@@ -291,7 +291,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">SOURCILS</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  1O OOO F CFA
+                  1O OOO €
                   </div>
                 </div>
                  </div>
@@ -303,7 +303,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">SOURCILS ET LIGNE</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO F CFA
+                  15 OOO €
                   </div>
                 </div>
                  </div>
@@ -315,7 +315,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">BRAS</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  1O OOO F CFA
+                  1O OOO €
                   </div>
                 </div>
                  </div>
@@ -327,7 +327,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">AISSELLES</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  8 OOO F CFA
+                  8 OOO €
                   </div>
                 </div>
                  </div>
@@ -339,7 +339,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">MAILLOTS</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  2O OOO F CFA
+                  2O OOO €
                   </div>
                 </div>
                  </div>
@@ -351,7 +351,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">JAMBE COMPLETE</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  2O OOO F CFA
+                  2O OOO €
                   </div>
                 </div>
                  </div>
@@ -363,7 +363,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">TORSE</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO F CFA
+                  15 OOO €
                   </div>
                 </div>
                  </div>
@@ -375,7 +375,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">DOS</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO F CFA
+                  15 OOO €
                   </div>
                 </div>
                  </div>
@@ -387,7 +387,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">NEZ</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 OOO F CFA
+                  3 OOO €
                   </div>
                 </div>
                  </div>
@@ -399,7 +399,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">OREILLES</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 OOO F CFA
+                  3 OOO €
                   </div>
                 </div>
                  </div>
@@ -411,7 +411,7 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">FESSES</span>
                 <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  10 OOO F CFA
+                  10 OOO €
                   </div>
                 </div>
                  </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-// import FormationsTab from './FormationsTab'
 
 function Formations() {
     return (
@@ -49,7 +48,7 @@ function Formations() {
                         450.000
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
@@ -111,7 +110,7 @@ function Formations() {
                         550.000
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
@@ -172,7 +171,7 @@ function Formations() {
                         550.000
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
@@ -247,10 +246,10 @@ function Formations() {
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        450.000
+                        850
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
@@ -315,10 +314,10 @@ function Formations() {
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        450.000
+                        1350
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
@@ -383,10 +382,10 @@ function Formations() {
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        350.000
+                        1850
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
@@ -442,10 +441,10 @@ function Formations() {
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        350.000
+                        550
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
                 </div>
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
@@ -496,17 +495,17 @@ function Formations() {
             <div className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
             <img src="formation_complete.png" alt="epilation" className="w-full h-48 rounded-lg object-cover object-center mb-4" />
                 <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
-                FORMATION <br/>
+                PERFECTIONNEMENT <br/>
                 EXCELLENCE
                 </h3>
-                <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
+                {/* <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
                         3.800.000
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        FCFA
+                        €
                     </p>
-                </div>
+                </div> */}
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
                     <li className="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-gray-500 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

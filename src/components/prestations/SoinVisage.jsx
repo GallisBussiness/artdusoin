@@ -14,10 +14,10 @@ function SoinVisage() {
                 <span className="font-bold text-gray-800 text-lg">SOIN PURETE D'ORIENT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 45min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  55 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -38,7 +38,7 @@ function SoinVisage() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  30 000 F CFA
+                  70 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -60,7 +60,7 @@ function SoinVisage() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  35 000 F CFA
+                  50 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -79,10 +79,10 @@ function SoinVisage() {
                 <span className="font-bold text-gray-800 text-lg">SOIN SOS OXYGENE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h 30 min
+                    Durée : 1h 15 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  45 000 F CFA
+                  80 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -104,7 +104,7 @@ function SoinVisage() {
                     Durée : 1h 30 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  55 000 F CFA
+                  90 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -126,7 +126,7 @@ function SoinVisage() {
                     Durée : 1h 30 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  60 000 F CFA
+                  110 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">

@@ -10,13 +10,13 @@ function SoinCorps() {
                <>
                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MODELAGE SIGNATURE</span>
+                <span className="font-bold text-gray-800 text-lg">MASSAGE SIGNATURE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  35 000 F CFA
+                  90 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -34,13 +34,13 @@ function SoinCorps() {
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MASSAGE AYURVEDIQUE</span>
+                <span className="font-bold text-gray-800 text-lg">MASSAGE RELAXANT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  65 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -62,7 +62,7 @@ function SoinCorps() {
                     Durée : 1 h 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  35 000 F CFA
+                  80 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -83,7 +83,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  25 000 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -109,7 +109,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  55 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -134,7 +134,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  55 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -160,7 +160,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  20 000 F CFA
+                  45 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -188,7 +188,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  20 000 F CFA
+                  45 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
