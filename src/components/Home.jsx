@@ -4,27 +4,13 @@ import Autoplay from 'embla-carousel-autoplay';
 import { Carousel } from '@mantine/carousel';
 import React, { useRef } from 'react'
 import { Link } from 'react-router-dom';
+import { Hero } from './Hero';
 
 function Home() {
   const autoplay = useRef(Autoplay({ delay: 2000 }));
     return (
         <div className="bg-white">
-  <BackgroundImage src="/pexel_visage.jpg" className="text-black font-lora bg-amber-50 opacity-70">
-  <div className="container px-10 py-10 mx-auto flex flex-col-reverse md:flex-row-reverse flex-wrap justify-center">
-    <div className="lg:w-2/5 md:w-full md:pr-16 lg:pr-0 pr-0 mb-8 mr-10 flex flex-col items-center justify-center">
-    <img src="/logo.jpg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4" />
-      {/* <h1 className="text-5xl text-white uppercase">Ckesthetik</h1> */}
-      <p className="leading-relaxed mt-4 text-lg font-bold text-white">
-      CENTRE DE FORMATION
-      AUX MÉTIERS DE LA BEAUTÉ</p>
-    </div>
-    <div className="lg:w-3/6 md:w-full rounded-lg p-4 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-     <div className="flex items-center justify-center mr-20 space-x-1">
-     {/* <img src="/pexel_visage.jpg" alt="centre de beauté" className="rounded-lg  h-60 w-full object-cover object-center" /> */}
-     </div>
-    </div>
-  </div>
-</BackgroundImage>
+      <Hero />
 <section className="py-10 md:py-20 text-gray-700 bg-white bg font-lora">
   <div className="container px-5 md:px-40 items-center mx-auto">
   <div className="w-full">
@@ -32,7 +18,7 @@ function Home() {
      <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <img src="carina.jpeg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4 object-contain" />
      
-     <p className="mb-4 font-normal tracking-tight text-gray-900 xl:mb-6 text-justify ml-6">
+     <p className="mb-4 font-playfiar tracking-tight text-gray-900 xl:mb-6 text-justify ml-6">
                   Professionnelle de renommée internationale des métiers de l’esthétique,
       Mme CHIRARA Karina, Titulaire d’un CAP et d’un BP ESTHETIQUE-COSMETIQUE de l’école Fournier de VICHY,
       Riche de 25 années d’expériences,  en tant qu’esthéticienne spécialisée en audit d’institut et en tant que formatrice aux métiers de la beauté, aujourd’hui elle souhaite transmettre son savoir , sa passion et apporter son expertise aux professionnels de notre noble métier.
@@ -186,60 +172,6 @@ function Home() {
    </div>
  </div>
 </section>
- {/* <section className="mt-2 font-lora container px-5 md:px-40 mx-auto w-full md:w-full">
-<Carousel autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false}>
-                <div className="mx-auto w-full">
-                    <img src="w1.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w2.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w4.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w5.jpeg" className="w-full h-110 object-cover object-bottom rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w6.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w7.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="bannerd1.jpg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="bannerd2.jpg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="bannerd3.jpg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="bannerd4.jpg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="bannerd5.jpg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w8.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w9.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w10.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-               
-                <div className="mx-auto w-full">
-                    <img src="w12.jpeg" className="w-full h-110 object-cover object-bottom rounded-lg" />
-                </div>
-                <div className="mx-auto w-full">
-                    <img src="w13.jpeg" className="w-full h-110 object-cover rounded-lg" />
-                </div>
-               
-            </Carousel>
-</section>  */}
         </div>
     )
 }

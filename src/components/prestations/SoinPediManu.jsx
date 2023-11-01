@@ -13,10 +13,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">POSE FAUX ONGLES GEL FRENCH</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  30 000 F CFA
+                  60 €
                   </div>
                 </div>
                  </div>
@@ -29,10 +29,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">POSE FAUX ONGLES GEL</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  55 €
                   </div>
                 </div>
                  </div>
@@ -42,34 +42,19 @@ function SoinPediManu() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">REMPLISSAGE</span>
+                <span className="font-bold text-gray-800 text-lg">CHABLON</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  20 000 F CFA
+                  65 €
                   </div>
                 </div>
                  </div>
                 </div> 
                 </>
                 
-                <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">REMPLISSAGE FRENCH</span>
-                <div className="flex items-center justify-between">
-                  <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
-                  </div>
-                  <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
-                  </div>
-                </div>
-                 </div>
-                </div>   
-                </>
                
                 <>
                     <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
@@ -77,10 +62,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">ONGLE CASSE HORS REMPLISSAGE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 15min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 F CFA
+                  5 €
                   </div>
                 </div>
                  </div>
@@ -96,7 +81,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  2 €
                   </div>
                 </div>
                  </div>
@@ -113,7 +98,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  500 F CFA
+                  2 €
                   </div>
                 </div>
                  </div>
@@ -129,7 +114,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  500 F CFA
+                  1 €
                   </div>
                 </div>
                  </div>
@@ -150,7 +135,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  6 000 F CFA
+                  30 €
                   </div>
                 </div>
                  </div>
@@ -166,7 +151,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  12 000 F CFA
+                  50 €
                   </div>
                 </div>
                  </div>
@@ -179,10 +164,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">FORFAIT MAINS ET PIEDS</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  75 €
                   </div>
                 </div>
                  </div>
@@ -192,13 +177,13 @@ function SoinPediManu() {
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">FORFAIT THERMAL M+P</span>
+                <span className="font-bold text-gray-800 text-lg">FORFAIT THERMAL (Masque + Massage)</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  20 000 F CFA
+                  30 €
                   </div>
                 </div>
                  </div>
@@ -210,10 +195,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">POSE VERNIS MAIN</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3000 F CFA
+                  10 €
                   </div>
                 </div>
                  </div>
@@ -223,13 +208,13 @@ function SoinPediManu() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">POSE VERNIS PIEDS</span>
+                <span className="font-bold text-gray-800 text-lg">POSE VERNIS PIEDS PERMANANT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3000 F CFA
+                  28 €
                   </div>
                 </div>
                  </div>
@@ -242,10 +227,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">POSE VERNIS PERMANENT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 45min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  8000 F CFA
+                  28 €
                   </div>
                 </div>
                  </div>
@@ -262,7 +247,7 @@ function SoinPediManu() {
                     Durée : 1h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  6000 F CFA
+                  10 €
                   </div>
                 </div>
                  </div>
@@ -275,10 +260,10 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">FORFAIT POSE VERNIS PERMANENT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 15min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  50 €
                   </div>
                 </div>
                  </div>

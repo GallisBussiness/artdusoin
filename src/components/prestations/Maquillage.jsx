@@ -14,7 +14,7 @@ function Maquillage() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 F CFA
+                  25 €
                   </div>
                 </div>
                  </div>
@@ -27,10 +27,10 @@ function Maquillage() {
                 <span className="font-bold text-gray-800 text-lg">MAQUILLAGE SOIRÉE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 45 MIN 
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  20 000 F CFA
+                  30 €
                   </div>
                 </div>
                  </div>
@@ -43,10 +43,10 @@ function Maquillage() {
                 <span className="font-bold text-gray-800 text-lg">MAQUILLAGE MARIÉE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 1h 15min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  50 000 F CFA
+                  60 €
                   </div>
                 </div>
                  </div>
@@ -62,7 +62,7 @@ function Maquillage() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  30 000 F CFA
+                  40 €
                   </div>
                 </div>
                  </div>
@@ -78,7 +78,7 @@ function Maquillage() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  50 000 F CFA
+                  50 €
                   </div>
                 </div>
                  </div>

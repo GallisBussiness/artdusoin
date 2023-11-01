@@ -58,6 +58,18 @@ const theme = createTheme({
       "#c0b820",
       "#aaa316",
       "#938c03"
+    ],
+    'beige':[
+      "#fafaea",
+      "#f4f4da",
+      "#e9e9b5",
+      "#dddd8b",
+      "#d2d268",
+      "#cccc52",
+      "#c8c845",
+      "#b1b136",
+      "#9d9d2d",
+      "#87871f"
     ]
   },
 });
