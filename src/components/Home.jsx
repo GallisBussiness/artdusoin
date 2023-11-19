@@ -14,7 +14,6 @@ function Home() {
 <section className="py-10 md:py-20 text-gray-700 bg-white bg font-lora">
   <div className="container px-5 md:px-40 items-center mx-auto">
   <div className="w-full">
-  <h2 className="mb-4 text-3xl leading-tight tracking-tight sm:text-4xl font-heading text-gray-900">Notre Academie </h2>
      <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <img src="carina.jpeg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4 object-contain" />
      
@@ -33,7 +32,7 @@ function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
 </svg>
-              <span className="font-medium text-gray-800">Un centre de bien-être </span>
+              <span className="font-medium text-gray-800">Des Soins Haut de Gamme</span>
             </li>
             <li className="flex items-center py-2 space-x-4 xl:py-3">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -45,13 +44,7 @@ function Home() {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
   <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
 </svg>
-              <span className="font-medium text-gray-800">Accompagement pour la creation d'un institue de beauté</span>
-            </li>
-            <li className="flex items-center py-2 space-x-4 xl:py-3">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-</svg>
-              <span className="font-medium text-gray-800">Possibilité de stage en entreprise</span>
+              <span className="font-medium text-gray-800">Accompagement pour la creation d'un institut de beauté</span>
             </li>
             <li className="flex items-center py-2 space-x-4 xl:py-3">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
