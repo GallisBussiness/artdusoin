@@ -468,12 +468,12 @@ function Epilation() {
 
 
               <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold">FORFAITS</h2>
+              <h2 className="text-2xl font-bold">FORFAITS FEMMES</h2>
               <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">FORFAIT 2 ZONES</span>
-                <div className="flex flex-col">
+                <div className="flex flex-col space-y-2">
                 <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
                     DEMI JAMBE + AISSELLES 26€
                   </div>
@@ -485,6 +485,10 @@ function Epilation() {
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
                     JAMBE COMPLETE + MAILLOT INTEGRAL 50€
                   </div>
+                  <Divider />
+                  <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    SOURCIL + LEVRES 16€
+                  </div>
                 </div>
                  </div>
                 </div>
@@ -494,13 +498,17 @@ function Epilation() {
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">FORFAIT 3 ZONES</span>
-                <div className="flex flex-col">
+                <div className="flex flex-col space-y-2">
                 <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
                     DEMI JAMBE + MAILLOT ECHANCRE + AISSELLES 45€
                   </div>
                   <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
                     JAMBE COMPLETE + MAILLOT INTEGRAL + AISSELLES 60€
+                  </div>
+                  <Divider />
+                  <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    SOURCIL + LEVRES + MENTON 25€
                   </div>
                 </div>
                  </div>
