@@ -132,7 +132,7 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">MANUCURE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 45 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
                   30 €
@@ -205,26 +205,11 @@ function SoinPediManu() {
                 </div> 
                 </>
                
-                <>
-                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">POSE VERNIS PIEDS PERMANANT</span>
-                <div className="flex items-center justify-between">
-                  <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 30min
-                  </div>
-                  <div className="text-2xl text-gray-600 font-bold">
-                  28 €
-                  </div>
-                </div>
-                 </div>
-                </div>  
-                </>
                
                 <>
                     <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">POSE VERNIS PERMANENT</span>
+                <span className="font-bold text-gray-800 text-lg">POSE VERNIS PERMANENT (mains ou pieds)</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 45min
@@ -244,7 +229,7 @@ function SoinPediManu() {
                 <span className="font-bold text-gray-800 text-lg">DEPOSE VERNIS PERMANENT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
+                    Durée : 30min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
                   10 €
@@ -257,7 +242,7 @@ function SoinPediManu() {
                 <>
                     <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">FORFAIT POSE VERNIS PERMANENT</span>
+                <span className="font-bold text-gray-800 text-lg">FORFAIT POSE VERNIS PERMANENT (mains et pieds)</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1h 15min

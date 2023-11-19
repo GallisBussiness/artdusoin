@@ -43,10 +43,11 @@ function Rituel() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
+                   <div className="text-lg text-black ">
                   Sous l'effet conjugué des boues marines naturelles de la Mer et les sels marins. Ce soin original vous offre une exfoliation detoxifiant.
-                  Une hydratation profonde et une douceur extrême. Retrouver la pureté de votre corps et de votre visage, Naviguer à travers les vagues par son massage relaxant.
-                  Gommage-enveloppement-soin visage-massage et thé
+                  Une hydratation profonde et une douceur extrême. Retrouver la pureté de votre corps et de votre visage,
+                  Naviguer à travers les vagues par son massage relaxant.
+                  Gommage-enveloppement-soin visage-massage et thé.
                  </div>
                  </div>
                  </div>
@@ -67,7 +68,7 @@ function Rituel() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
+                   <div className="text-lg text-black">
                    Issu d'une tradition ancestrale oriantale, ce soin vous invite à purifier votre corps en profondeur grâce aux vertus exfoliantes et naturelles du savon noir originaire de la ville d'Essaouira au maroc, enveloppé par la douceur du rhassoul et de ses eaux florales.
                    Voyager à travers le temps par son massage unique. Gommage-enveloppement-massage et thé-soin visage-beauté des mains et pieds
                  </div>

@@ -16,7 +16,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  9,50 €
+                  9 €
                   </div>
                 </div>
                  </div>
@@ -32,7 +32,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  9,50 €
+                  9 €
                   </div>
                 </div>
                  </div>
@@ -64,7 +64,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  9,50 €
+                  9 €
                   </div>
                 </div>
                  </div>
@@ -137,7 +137,7 @@ function Epilation() {
                 </div>
                 </>
 
-                <>
+                {/* <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">POSE EXTENSIONS CILS A CILS</span>
@@ -151,9 +151,9 @@ function Epilation() {
                 </div>
                  </div>
                 </div>
-                </>
+                </> */}
 
-                <>
+                {/* <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">REMPLISSAGE CILS A CILS</span>
@@ -167,7 +167,7 @@ function Epilation() {
                 </div>
                  </div>
                 </div>
-                </>
+                </> */}
               </div>
               <div className="flex flex-col space-y-2">
               <h2 className="text-2xl font-bold">EPILATION COPRS</h2>
@@ -177,10 +177,10 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">EPILATION BRAS</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 15 Min
+                    Durée : 20 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  8 000 €
+                  18 €
                   </div>
                 </div>
                  </div>
@@ -196,7 +196,7 @@ function Epilation() {
                     Durée : 15 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  6 000 €
+                  12 €
                   </div>
                 </div>
                  </div>
@@ -209,10 +209,10 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">EPILATION MAILLOT ECHANCRE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1 h
+                    Durée : 20 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  8 000 €
+                  18 €
                   </div>
                 </div>
                  </div>
@@ -225,10 +225,10 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">EPILATION MAILLOT COMPLET</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1 h
+                    Durée : 30 min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  14 000 €
+                  28 €
                   </div>
                 </div>
                  </div>
@@ -238,13 +238,13 @@ function Epilation() {
                 <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">EPILATION DEMI JAMBES</span>
+                <span className="font-bold text-gray-800 text-lg">EPILATION DEMI JAMBES OU CUISSE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 30 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  12 000 €
+                  18 €
                   </div>
                 </div>
                  </div>
@@ -260,14 +260,14 @@ function Epilation() {
                     Durée : 45 Min
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  15 000 €
+                  27 €
                   </div>
                 </div>
                  </div>
                 </div>
                 </>
 
-                <>
+                {/* <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">FORFAITS PERSONNALISES SUR DEVIS</span>
@@ -281,7 +281,7 @@ function Epilation() {
                 </div>
                  </div>
                 </div>
-                </>
+                </> */}
               </div>
               <div className="flex flex-col space-y-2">
               <h2 className="text-2xl font-bold">EPILATION AU MASCULIN</h2>
@@ -290,8 +290,11 @@ function Epilation() {
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">SOURCILS</span>
                 <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 20 min
+                  </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  1O OOO €
+                  15 €
                   </div>
                 </div>
                  </div>
@@ -302,80 +305,11 @@ function Epilation() {
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">SOURCILS ET LIGNE</span>
                 <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO €
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 20 min
                   </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">BRAS</span>
-                <div className="flex items-center justify-between">
                   <div className="text-2xl text-gray-600 font-bold">
-                  1O OOO €
-                  </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">AISSELLES</span>
-                <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  8 OOO €
-                  </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MAILLOTS</span>
-                <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  2O OOO €
-                  </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">JAMBE COMPLETE</span>
-                <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  2O OOO €
-                  </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">TORSE</span>
-                <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO €
-                  </div>
-                </div>
-                 </div>
-                </div>
-                </>
-                <>
-                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">DOS</span>
-                <div className="flex items-center justify-between">
-                  <div className="text-2xl text-gray-600 font-bold">
-                  15 OOO €
+                  20 €
                   </div>
                 </div>
                  </div>
@@ -386,8 +320,11 @@ function Epilation() {
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">NEZ</span>
                 <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 15 min
+                  </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 OOO €
+                  8 €
                   </div>
                 </div>
                  </div>
@@ -398,8 +335,11 @@ function Epilation() {
                 <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">OREILLES</span>
                 <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 15 min
+                  </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  3 OOO €
+                  8 €
                   </div>
                 </div>
                  </div>
@@ -408,17 +348,149 @@ function Epilation() {
                 <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">BRAS</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 30 min
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  22 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">AISSELLES</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 20 min
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  18 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">MAILLOTS</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 30min
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  45 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">JAMBE COMPLETE</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 1h
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  35 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">TORSE</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 30 min
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  25 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">DOS</span>
+                <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 30 min
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                   25 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+               
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
                 <span className="font-bold text-gray-800 text-lg">FESSES</span>
                 <div className="flex items-center justify-between">
+                <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 30 min
+                  </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  10 OOO €
+                  22 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">FORFAITS</span>
+                <div className="flex items-center justify-between">
+                  <div className="text-2xl text-gray-600 font-bold">
+                  sur devis
                   </div>
                 </div>
                  </div>
                 </div>
                 </>
               </div>
-              
+
+
+              <div className="flex flex-col space-y-2">
+              <h2 className="text-2xl font-bold">FORFAITS</h2>
+              <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">FORFAIT 2 ZONES</span>
+                <div className="flex flex-col">
+                <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    DEMI JAMBE + AISSELLES
+                  </div>
+                  <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    DEMI JAMBE + AISSELLES
+                  </div>
+                  <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    DEMI JAMBE + AISSELLES
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  26 €
+                  </div>
+                </div>
+                 </div>
+                </div>
+                </>
+            
+              </div>
             </div>
         </div> 
         </>

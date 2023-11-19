@@ -83,7 +83,7 @@ function SoinCorps() {
                     Durée : 1 h
                   </div>
                   <div className="text-2xl text-gray-600 font-bold">
-                  25 000 €
+                  70 €
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
@@ -170,8 +170,6 @@ function SoinCorps() {
                   Parcourez notre bar à gommage au parfum et textures gourmande pour sublimer votre peau.
                   <br />
                   <h2 className="text-lg font-bold">Gommage savon noir et huile d'olive</h2>
-                  <br />
-                  <h2 className="text-lg font-bold">Gommage aux sucres roux et à la noix de coco</h2>
                   <br />
                   <h2 className="text-lg font-bold">Gommage au sel minéraux et à l'huile chaude</h2>
                  </div>

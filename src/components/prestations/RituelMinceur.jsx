@@ -19,7 +19,7 @@ function RituelMinceur() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
+                   <div className="text-lg text-black">
                    Un enveloppement - soin cryothérapie, qui traite les sensations d'inconfort et de fatigue dans les jambes. Un traitement dont l'éfficacité du complexe algal, enrichi en menthol et camphre est très largement approuvée. La sensation de fatigue douloureuse des jambes s'estompent pour une silhouette affinée.
                  </div>
                  </div>
@@ -41,7 +41,7 @@ function RituelMinceur() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
+                   <div className="text-lg text-black">
                   Concentré de performance et d'efficacité, ce soin minceur professionnel sur mesure zone à zone, gommage ultra exfoliant, double enveloppement effet chaud froid hautement actif associées à un massage spécifique pour remodeler visiblement votre silhouette les capitons,raffermir et tonifier votre peau.
                   Gommage-enveloppement-massage-minceur localisé
                  </div>
@@ -64,7 +64,7 @@ function RituelMinceur() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
+                   <div className="text-lg text-black">
                  Massage amincissant localisé sur le ventre, les cuisses pour affiner visiblement la silhouette.
                  </div>
                  </div>

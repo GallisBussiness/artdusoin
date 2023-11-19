@@ -4,7 +4,7 @@ function Epilation() {
     return (
         <>
           <div className="container mx-auto w-4/5 px-5 py-4 font-lora">
-          <h2 className="text-center box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+          <h2 className="text-center box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl font-playfiar">
             PLAN DE FORMATION EPILATION 
             </h2>
               <h1 className="text-3xl font-semibold my-2">Durée : </h1>
