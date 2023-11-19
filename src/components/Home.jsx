@@ -27,12 +27,12 @@ function Home() {
       <Link to="/prestations?q=soin-corps" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
-   <img src="/massage.jpg" alt="soin visage" className="h-60 w-60 rounded-full object-cover" />
+   <img src="/cadran/massage.webp" alt="soin visage" className="h-60 w-60 rounded-full object-cover" />
    </div>
  </div>
  <div className="flex flex-col md:flex-row space-y-1 md:space-y-0 items-center">
  <div className="bg-white h-60 w-96 flex items-center justify-center">
- <img src="/makup.jpg" alt="makeup" className="h-60 w-60 rounded-full object-cover" />
+ <img src="/cadran/maquillage.jpeg" alt="makeup" className="h-60 w-60 rounded-full object-cover" />
    </div>
  <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">    
       <h1 className="text-2xl font-bold font-playfiar">MAQUILLAGE</h1>
@@ -73,7 +73,7 @@ function Home() {
   <div className="container px-5 md:px-40 items-center mx-auto">
   <div className="w-full">
      <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
-        <img src="carina.jpeg" alt="centre de beauté" className="rounded-lg h-44 w-44 mb-4 object-contain" />
+        <img src="carina2.jpeg" alt="centre de beauté" className="rounded-lg h-44 w-44 mb-4 object-contain" />
      
      <p className="mb-4 font-playfiar tracking-tight text-gray-900 xl:mb-6 text-justify ml-6">
                   Professionnelle de renommée internationale des métiers de l’esthétique,
