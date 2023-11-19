@@ -475,15 +475,15 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">FORFAIT 2 ZONES</span>
                 <div className="flex flex-col">
                 <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + AISSELLES (26€)
+                    DEMI JAMBE + AISSELLES 26€
                   </div>
                   <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + MAILLOT INTEGRAL (39€)
+                    DEMI JAMBE + MAILLOT INTEGRAL 39€
                   </div>
                   <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    JAMBE COMPLETE + MAILLOT INTEGRAL (50€)
+                    JAMBE COMPLETE + MAILLOT INTEGRAL 50€
                   </div>
                 </div>
                  </div>
@@ -496,11 +496,11 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">FORFAIT 3 ZONES</span>
                 <div className="flex flex-col">
                 <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + MAILLOT ECHANCRE + AISSELLES (45€)
+                    DEMI JAMBE + MAILLOT ECHANCRE + AISSELLES 45€
                   </div>
                   <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    JAMBE COMPLETE + MAILLOT INTEGRAL + AISSELLES (60€)
+                    JAMBE COMPLETE + MAILLOT INTEGRAL + AISSELLES 60€
                   </div>
                 </div>
                  </div>
