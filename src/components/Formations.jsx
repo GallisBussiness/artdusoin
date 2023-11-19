@@ -8,7 +8,7 @@ function Formations() {
 <section className="mx-10 py-8 leading-7 text-gray-900 bg-white sm:py-8 md:py-10 lg:py-16 font-lora">
     <div className="box-border mx-auto border-solid sm:px-6 md:px-6 lg:px-4 max-w-7xl">
         <div className="flex flex-col items-center leading-7 text-center text-gray-900 border-0 border-gray-200">
-            <h2 className="box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+            <h2 className="box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl font-playfiar">
            FORMATION
             </h2>
             <h2 className="box-border mb-4 text-2xl font-semibold leading-tight tracking-tight text-gray-800 border-solid sm:text-lg md:text-xl">
@@ -39,13 +39,13 @@ function Formations() {
         
             <img src="EPILATION.jpg" alt="epilation"
              className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
                 EPILATIONS
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        450.000
+                        990
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -101,13 +101,13 @@ function Formations() {
              className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0  rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
                 
             <img src="SV.jpg" alt="epilation" className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
                 SOINS DU VISAGE
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        550.000
+                        1590
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -162,13 +162,13 @@ function Formations() {
             <div 
                        className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">                
             <img src="massage.jpg" alt="epilation" className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
-                SOIN DU CORPS
+                MASSAGE
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        550.000
+                      1390
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -240,13 +240,13 @@ function Formations() {
             <div
             className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">            
             <img src="MANU-PEDI.jpg" alt="epilation" className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
                 MANUCURE PEDICURE
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        850
+                        990
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -308,13 +308,13 @@ function Formations() {
             <div 
                         className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
             <img src="onglerie.jpg" alt="epilation" className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
                 ONGLERIE
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        1350
+                        1390
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -376,13 +376,13 @@ function Formations() {
             <div 
                         className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
             <img src="makup.jpg" alt="epilation" className="w-full h-48 rounded-lg object-cover mb-4" />
-                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
+                <h3 className="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl font-playfiar">
                 FORMATION <br/>
                 MAQUILLAGE
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        1850
+                        1290
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -441,7 +441,7 @@ function Formations() {
                 </h3>
                 <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        550
+                        590
                     </p>
                     <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
                         €
@@ -498,14 +498,11 @@ function Formations() {
                 PERFECTIONNEMENT <br/>
                 EXCELLENCE
                 </h3>
-                {/* <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
-                    <p className="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        3.800.000
+                <div className="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
+                    <p className="box-border m-0 text-3xl font-semibold leading-none border-solid">
+                        SUR DEVIS
                     </p>
-                    <p className="box-border m-0 border-solid" style={{borderImage: 'initial'}}>
-                        €
-                    </p>
-                </div> */}
+                </div>
                 <ul className="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
                     <li className="inline-flex items-center w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg className="w-5 h-5 mr-2 font-semibold leading-7 text-gray-500 sm:h-5 sm:w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

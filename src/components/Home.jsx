@@ -15,7 +15,7 @@ function Home() {
   <div className="container px-5 md:px-40 items-center mx-auto">
   <div className="w-full">
      <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
-        <img src="carina.jpeg" alt="centre de beauté" className="rounded-lg h-72 w-72 mb-4 object-contain" />
+        <img src="carina.jpeg" alt="centre de beauté" className="rounded-lg h-44 w-44 mb-4 object-contain" />
      
      <p className="mb-4 font-playfiar tracking-tight text-gray-900 xl:mb-6 text-justify ml-6">
                   Professionnelle de renommée internationale des métiers de l’esthétique,
