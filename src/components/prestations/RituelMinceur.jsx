@@ -8,12 +8,12 @@ function RituelMinceur() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">SOINS CRYOGENIQUE</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">SOINS CRYOGENIQUE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   55 €
                   </div>
                 </div>
@@ -30,12 +30,12 @@ function RituelMinceur() {
                 <>
                     <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">DETOX MINCEUR LEGERETE</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">DETOX MINCEUR LEGERETE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1h 30 min
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   70 €
                   </div>
                 </div>
@@ -53,12 +53,12 @@ function RituelMinceur() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">RITUEL MINCEUR TRADITIONNEL</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">RITUEL MINCEUR TRADITIONNEL</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 30 min
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   35 €
                   </div>
                 </div>

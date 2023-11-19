@@ -6,16 +6,16 @@ function SoinCorps() {
            <div className="px-10 py-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-y-2 gap-x-10">
             <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold">MASSAGE</h2>
+              <h2 className="text-2xl font-bold font-playfiar">MASSAGE</h2>
                <>
                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MASSAGE SIGNATURE</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">MASSAGE SIGNATURE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h 30 Min
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   90 €
                   </div>
                 </div>
@@ -34,12 +34,12 @@ function SoinCorps() {
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MASSAGE RELAXANT</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">MASSAGE RELAXANT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   65 €
                   </div>
                 </div>
@@ -56,12 +56,12 @@ function SoinCorps() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MASSAGE AUX PIERRES CHAUDES</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">MASSAGE AUX PIERRES CHAUDES</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h 30 Min
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   80 €
                   </div>
                 </div>
@@ -77,12 +77,12 @@ function SoinCorps() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">MASSAGE LOMI LOMI</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">MASSAGE LOMI LOMI</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   70 €
                   </div>
                 </div>
@@ -99,16 +99,16 @@ function SoinCorps() {
             </div>
              
             <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold">SOINS SPECIFIQUES</h2>
+              <h2 className="text-2xl font-bold font-playfiar">SOINS SPECIFIQUES</h2>
               <>
                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">SOIN DU BUSTE</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN DU BUSTE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   55 €
                   </div>
                 </div>
@@ -128,12 +128,12 @@ function SoinCorps() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">SOIN PRECIEUX DU DOS</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN PRECIEUX DU DOS</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   55 €
                   </div>
                 </div>
@@ -149,17 +149,17 @@ function SoinCorps() {
                 
             </div>
             <div className="flex flex-col space-y-2">
-              <h2 className="text-2xl font-bold">SOINS CORPS</h2>
+              <h2 className="text-2xl font-bold font-playfiar">SOINS CORPS</h2>
             
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">GOMMAGE MINERAL</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">GOMMAGE MINERAL</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   45 €
                   </div>
                 </div>
@@ -169,9 +169,9 @@ function SoinCorps() {
                   Pour une peau douce et satinée éliminant les impuretés et les toxines.
                   Parcourez notre bar à gommage au parfum et textures gourmande pour sublimer votre peau.
                   <br />
-                  <h2 className="text-lg font-bold">Gommage savon noir et huile d'olive</h2>
+                  <h2 className="text-lg font-bold font-playfiar">Gommage savon noir et huile d'olive</h2>
                   <br />
-                  <h2 className="text-lg font-bold">Gommage au sel minéraux et à l'huile chaude</h2>
+                  <h2 className="text-lg font-bold font-playfiar">Gommage au sel minéraux et à l'huile chaude</h2>
                  </div>
                  </div>
                  </div>
@@ -180,12 +180,12 @@ function SoinCorps() {
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">RITUEL D'ENVELOPPEMENT</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">RITUEL D'ENVELOPPEMENT</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   45 €
                   </div>
                 </div>
@@ -194,9 +194,9 @@ function SoinCorps() {
                    <div className="text-lg text-black text-justify">
                    L'enveloppement corporel est une technique de soin qui consiste à libérer les tensions, élimine les toxines, hydrate la peau de notre corps en profondeur.
                   <br />
-                  <h2 className="text-lg font-bold">Enveloppement à la crème de rhassoul somptueux au miel, detoxifiant, purrifiant</h2>
+                  <h2 className="text-lg font-bold font-playfiar">Enveloppement à la crème de rhassoul somptueux au miel, detoxifiant, purrifiant</h2>
                   <br />
-                  <h2 className="text-lg font-bold">Enveloppement à la poudre de gingembre hydratant et tonifiant</h2>
+                  <h2 className="text-lg font-bold font-playfiar">Enveloppement à la poudre de gingembre hydratant et tonifiant</h2>
                  </div>
                  </div>
                  </div>

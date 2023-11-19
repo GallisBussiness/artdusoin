@@ -36,19 +36,19 @@ function Prestations() {
     return (
         <>
         <div className="px-2 my-5 font-lora bg-white">
-        <h2 className="text-center box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+        <h2 className="text-center box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-3xl md:text-4xl font-playfiar">
             NOS PRESTATIONS 
             </h2>
         <Tabs defaultIndex={i}>
     <TabList>
       <Tab>SOINS VISAGE</Tab>
       <Tab>SOINS CORPS</Tab>
+      <Tab>EPILATIONS</Tab>
       <Tab>SOINS MAINS & PIEDS</Tab>
-      <Tab>MAQUILLAGE</Tab>
-      <Tab>MAQUILLAGE PERMANENT</Tab>
       <Tab>LES RITUELS</Tab>
       <Tab>RITUELS MINCEURS</Tab>
-      <Tab>EPILATIONS</Tab>
+      <Tab>MAQUILLAGE</Tab>
+      <Tab>MAQUILLAGE PERMANENT</Tab>
     </TabList>
 
     <TabPanel>
@@ -58,22 +58,22 @@ function Prestations() {
       <SoinCorps />
     </TabPanel>
     <TabPanel>
-      <SoinPediManu />
+    <Epilation />
     </TabPanel>
     <TabPanel>
-      <Maquillage />
-    </TabPanel>
-    <TabPanel>
-      <MaquillagePermanent />
+    <SoinPediManu />
     </TabPanel>
     <TabPanel>
       <Rituel />
     </TabPanel>
     <TabPanel>
-      <RituelMinceur />
+    <RituelMinceur />
     </TabPanel>
     <TabPanel>
-      <Epilation />
+    <Maquillage />
+    </TabPanel>
+    <TabPanel>
+    <MaquillagePermanent />
     </TabPanel>
   </Tabs> 
         </div>

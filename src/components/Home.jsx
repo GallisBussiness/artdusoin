@@ -14,17 +14,17 @@ function Home() {
       <section className="mt-3 font-lora container space-y-2 md:space-y-0 mx-auto w-full md:w-full px-40">
  <div className="flex flex-col-reverse md:flex-row space-y-1 md:space-y-0 items-center">
    <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold">SOINS VISAGES</h1>
+      <h1 className="text-2xl font-bold font-playfiar">SOINS VISAGES</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=soin-visage" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=soin-visage" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
-   <img src="/soin_visage.webp" alt="soin visage" className="h-60 w-60 rounded-full object-cover" />
+   <img src="/cadran/imgsoins.jpg" alt="soin visage" className="h-60 w-60 rounded-full object-cover" />
    </div>
    <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold">SOINS CORPS</h1>
+      <h1 className="text-2xl font-bold font-playfiar">SOINS CORPS</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=soin-corps" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=soin-corps" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
    <img src="/massage.jpg" alt="soin visage" className="h-60 w-60 rounded-full object-cover" />
@@ -35,37 +35,37 @@ function Home() {
  <img src="/makup.jpg" alt="makeup" className="h-60 w-60 rounded-full object-cover" />
    </div>
  <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">    
-      <h1 className="text-2xl font-bold">MAQUILLAGE</h1>
+      <h1 className="text-2xl font-bold font-playfiar">MAQUILLAGE</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=maquillage" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=maquillage" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
-   <img src="/rituel.jpg" alt="rituel" className="h-60 w-60 rounded-full object-cover" />
+   <img src="/cadran/imgfleur.jpg" alt="rituel" className="h-60 w-60 rounded-full object-cover" />
    </div>
    <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">  
-      <h1 className="text-2xl font-bold">RITUELS</h1>
+      <h1 className="text-2xl font-bold font-playfiar">RITUELS</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=rituel" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=rituel" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
  </div>
  <div className="flex flex-col-reverse md:flex-row space-y-1 md:space-y-0 items-center">
  <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">
     
-      <h1 className="text-2xl font-bold">EPILATIONS</h1>
+      <h1 className="text-2xl font-bold font-playfiar">EPILATIONS</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=epilation" className="flex-shrink-0 text-white  border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=epilation" className="flex-shrink-0 text-white  border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
    <img src="/EPILATION.jpg" alt="epilation" className="h-60 w-60 rounded-full object-cover" />
    </div>
    <div className="bg-black space-y-3 text-white font-semibold text-2xl h-60 w-96 flex flex-col items-center justify-center">
    
-   <h1 className="text-2xl font-bold">MAINS ET PIEDS</h1>
+   <h1 className="text-2xl font-bold font-playfiar">MAINS ET PIEDS</h1>
       <hr className="w-10 h-1 bg-white" />
-      <Link to="/prestations?q=pedicure-manicure" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold mt-10 sm:mt-0">Nos tarifs</Link>
+      <Link to="/prestations?q=pedicure-manicure" className="flex-shrink-0 text-white border-0 py-2 px-8 focus:outline-none hover:bg-white hover:text-gray-900 rounded text-lg font-bold font-playfiar mt-10 sm:mt-0">Nos tarifs</Link>
    </div>
    <div className="bg-white h-60 w-96 flex items-center justify-center">
-   <img src="/onglerie.jpg" alt="pedicure manicure" className="h-60 w-60 rounded-full object-cover" />
+   <img src="/cadran/imgpied.jpg" alt="pedicure manicure" className="h-60 w-60 rounded-full object-cover" />
    </div>
  </div>
 </section>

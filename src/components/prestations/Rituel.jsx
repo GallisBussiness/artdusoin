@@ -8,12 +8,12 @@ function Rituel() {
                 <>
                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">RITUEL PRESTIGE</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">RITUEL PRESTIGE</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 1 h 30min
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   70 €
                   </div>
                 </div>
@@ -32,12 +32,12 @@ function Rituel() {
                 <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">RITUEL THALLOSSO MINERAL</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">RITUEL THALLOSSO MINERAL</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 2 h 30
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   145 €
                   </div>
                 </div>
@@ -57,12 +57,12 @@ function Rituel() {
                 <>
                       <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">RITUEL ANCESTRAL</span>
+                <span className="font-bold font-playfiar text-gray-800 text-lg">RITUEL ANCESTRAL</span>
                 <div className="flex items-center justify-between">
                   <div className="md:text-lg text-sm text-gray-600 font-light">
                     Durée : 4 h
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
+                  <div className="text-2xl text-gray-600 font-bold font-playfiar">
                   270 €
                   </div>
                 </div>
