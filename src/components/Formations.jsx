@@ -16,16 +16,16 @@ function Formations() {
             </h2>
             <div className="flex flex-col text-sm md:text-xl items-start text-justify">
             <h2 className="box-border mb-4 text-lg font-semibold leading-tight tracking-tight text-gray-800 border-solid sm:text-sm md:text-lg">
-            La durée de chaque formation equivaut à 160 heures effectives de travail
+            La durée de chaque formation equivaut à 60 heures effectives de travail
             </h2>
             <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800">
             - 32 heures avec le professeur
             </h2>
             <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800">
-            - 80 heures de stage
+            - 20 heures de pratique
             </h2>
             <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800 ">
-            - 48 heures de DM
+            - 8 heures de DM
             </h2>
             </div>
            

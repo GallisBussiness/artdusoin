@@ -23,11 +23,32 @@ function SoinVisage() {
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
                    <div className="text-lg text-black text-justify">
-                   L'eau de rose est utilisé depuis l'antiquité pour ses vertus régénérant et anti bactériennes. Conseiller pour les peaux ternes et grasse.
+                   L'eau de rose est utilisé depuis l'antiquité pour ses vertus régénérant et anti bactériennes. Conseiller pour les peaux ternes,grasses et acneiques.
                  </div>
                  </div>
                  </div>
                 </div>
+                </>
+                <>
+                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">SOIN COCOONING DOUCEUR</span>
+                <div className="flex items-center justify-between">
+                  <div className="md:text-lg text-sm text-gray-600 font-light">
+                    Durée : 1h
+                  </div>
+                  <div className="text-2xl text-gray-600 font-bold">
+                  60 €
+                  </div>
+                </div>
+                <div className="flex flex-col items-center justify-center space-x-2">
+                <hr className="w-10 h-1 bg-black my-1" />
+                   <div className="text-lg text-black text-justify">
+                   Ce soin est conseillé pour les peaux déhydratés et sensibles. Laissez-vous coconnez à travers les vertus de l'aleovera, retrouver la douceur et l'énergie de votre peau.
+                 </div>
+                 </div>
+                 </div>
+                </div>  
                 </>
                 <>
                   <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
@@ -51,27 +72,7 @@ function SoinVisage() {
                 </div>  
                 </>
                 
-                <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
-                <div className="py-5 px-5">
-                <span className="font-bold text-gray-800 text-lg">SOIN COCOONING DOUCEUR</span>
-                <div className="flex items-center justify-between">
-                  <div className="md:text-lg text-sm text-gray-600 font-light">
-                    Durée : 1h
-                  </div>
-                  <div className="text-2xl text-gray-600 font-bold">
-                  50 €
-                  </div>
-                </div>
-                <div className="flex flex-col items-center justify-center space-x-2">
-                <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify">
-                   Ce soin est conseillé pour les peaux déhydratés et sensibles. Laissez-vous coconnez à travers les vertus de l'aleovera, retrouver la douceur et l'énergie de votre peau.
-                 </div>
-                 </div>
-                 </div>
-                </div>  
-                </>
+              
                 
                 <>
                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
