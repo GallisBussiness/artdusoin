@@ -1,3 +1,4 @@
+import { Divider } from '@mantine/core'
 import React from 'react'
 
 function Epilation() {
@@ -474,16 +475,32 @@ function Epilation() {
                 <span className="font-bold text-gray-800 text-lg">FORFAIT 2 ZONES</span>
                 <div className="flex flex-col">
                 <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + AISSELLES
+                    DEMI JAMBE + AISSELLES (26€)
                   </div>
+                  <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + AISSELLES
+                    DEMI JAMBE + MAILLOT INTEGRAL (39€)
                   </div>
+                  <Divider />
                   <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
-                    DEMI JAMBE + AISSELLES
+                    JAMBE COMPLETE + MAILLOT INTEGRAL (50€)
                   </div>
-                  <div className="text-2xl text-gray-600 font-bold">
-                  26 €
+                </div>
+                 </div>
+                </div>
+                </>
+
+                <>
+                      <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                <div className="py-5 px-5">
+                <span className="font-bold text-gray-800 text-lg">FORFAIT 3 ZONES</span>
+                <div className="flex flex-col">
+                <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    DEMI JAMBE + MAILLOT ECHANCRE + AISSELLES (45€)
+                  </div>
+                  <Divider />
+                  <div className="md:text-lg text-sm text-gray-600 font-light bg-amber-50">
+                    JAMBE COMPLETE + MAILLOT INTEGRAL + AISSELLES (60€)
                   </div>
                 </div>
                  </div>
