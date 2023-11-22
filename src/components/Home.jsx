@@ -125,35 +125,63 @@ function Home() {
      <Image
       radius="md"
       className="h-full"
-      src="/bannerd3.jpg"
+      src="/carousel/1.jpeg"
     />
      </Carousel.Slide>
      <Carousel.Slide>
      <Image
       radius="md"
       className="h-full"
-      src="/bannerd4.jpg"
+      src="/carousel/2.jpeg"
     />
      </Carousel.Slide>
      <Carousel.Slide>
      <Image
       radius="md"
       className="h-full"
-      src="/bannerd5.jpg"
+      src="/carousel/3.jpeg"
     />
      </Carousel.Slide>
      <Carousel.Slide>
      <Image
       radius="md"
       className="h-full"
-      src="/diapo2.jpeg"
+      src="/carousel/4.jpeg"
     />
      </Carousel.Slide>
      <Carousel.Slide>
      <Image
       radius="md"
       className="h-full"
-      src="/diapo3.jpeg"
+      src="/carousel/5.jpeg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/carousel/6.jpeg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/carousel/7.jpeg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/carousel/8.jpeg"
+    />
+     </Carousel.Slide>
+     <Carousel.Slide>
+     <Image
+      radius="md"
+      className="h-full"
+      src="/carousel/9.jpeg"
     />
      </Carousel.Slide>
     </Carousel>

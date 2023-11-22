@@ -9,7 +9,7 @@ function Contact() {
             <section className="text-gray-900 font-lora">
   <div className="container px-2 py-24 mx-auto">
     <div className="bg-gray-300 rounded-lg overflow-hidden p-10 min-h-screen relative">
-      <iframe width="100%" height="100%" className="absolute inset-0" title="map"  src="https://maps.google.com/maps?q=Cit%C3%A9%20Isra%202-%20Hann%20Marinas-DAKAR&t=&z=13&ie=UTF8&iwloc=&output=embed" style={{filter: "grayscale(1) contrast(1.2) opacity(0.4)"}}></iframe>
+<div style={{overflow: 'hidden', resize: 'none', maxWidth: '100%', width: '100%', height: 500}}><div id="gmap-canvas" style={{height: '100%', width: '100%', maxWidth: '100%'}}><iframe style={{height: '100%', width: '100%', border: 0}} frameBorder={0} src="https://www.google.com/maps/embed/v1/place?q=12+rue+de+la+ceca+57700+Hayange&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" /></div></div>
       <div className="w-full bg-white  absolute top-10 flex flex-wrap py-6 rounded shadow-md">
         <div className="w-full lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-lg">ADDRESS</h2>
