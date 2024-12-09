@@ -9,7 +9,7 @@ function SoinVisage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-y-2 gap-x-10">
              
             <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                  <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN PURETE D'ORIENT</span>
                 <div className="flex items-center justify-between">
@@ -22,7 +22,7 @@ function SoinVisage() {
                 </div>
                 <div className="flex flex-col items-center justify-center space-x-2">
                 <hr className="w-10 h-1 bg-black my-1" />
-                   <div className="text-lg text-black text-justify bg-green-50 p-2">
+                   <div className="text-lg text-black text-justify p-2">
                    L'eau de rose est utilisé depuis l'antiquité pour ses vertus régénérant et anti bactériennes. Conseiller pour les peaux ternes,grasses et acneiques.
                  </div>
                  </div>
@@ -30,7 +30,7 @@ function SoinVisage() {
                 </div>
                 </>
                 <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                  <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN COCOONING DOUCEUR</span>
                 <div className="flex items-center justify-between">
@@ -51,7 +51,7 @@ function SoinVisage() {
                 </div>  
                 </>
                 <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                  <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN THALASSO MINERAL</span>
                 <div className="flex items-center justify-between">
@@ -75,7 +75,7 @@ function SoinVisage() {
               
                 
                 <>
-                     <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                     <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN SOS OXYGENE</span>
                 <div className="flex items-center justify-between">
@@ -97,7 +97,7 @@ function SoinVisage() {
                 </>
               
                 <>
-                    <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                    <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN REPULPANT AU COLLAGENE</span>
                 <div className="flex items-center justify-between">
@@ -119,7 +119,7 @@ function SoinVisage() {
                 </>
                
                 <>
-                  <div className="bg-white shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
+                  <div className="bg-green-50 shadow-lg rounded-lg w-96 animate__animated animate__zoomIn">
                 <div className="py-5 px-5">
                 <span className="font-bold font-playfiar text-gray-800 text-lg">SOIN D'EXCEPTION FERMETE</span>
                 <div className="flex items-center justify-between">
