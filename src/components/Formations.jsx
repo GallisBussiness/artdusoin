@@ -1,38 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Pricing from './Pricing';
 
 function Formations() {
     return (
         <div className="bg-white">
-
-<section className="mx-10 py-8 leading-7 text-gray-900 bg-white sm:py-8 md:py-10 lg:py-16 font-lora">
-    <div className="box-border mx-auto border-solid sm:px-6 md:px-6 lg:px-4 max-w-7xl">
-        <div className="flex flex-col items-center leading-7 text-center text-gray-900 border-0 border-gray-200">
-            <h2 className="box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl font-playfiar">
-           FORMATION
-            </h2>
-            <h2 className="box-border mb-4 text-2xl font-semibold leading-tight tracking-tight text-gray-800 border-solid sm:text-lg md:text-xl">
-            Choisissez un ou plusieurs modules 
-            </h2>
-            <div className="flex flex-col text-sm md:text-xl items-start text-justify">
-            <h2 className="box-border mb-4 text-lg font-semibold leading-tight tracking-tight text-gray-800 border-solid sm:text-sm md:text-lg">
-            La durée de chaque formation equivaut à 60 heures effectives de travail
-            </h2>
-            <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800">
-            - 32 heures avec le professeur
-            </h2>
-            <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800">
-            - 20 heures de pratique
-            </h2>
-            <h2 className="box-border font-semibold leading-tight tracking-tight text-gray-800 ">
-            - 8 heures de DM
-            </h2>
-            </div>
-           
-        </div>
-    </div>
-</section>
-<section className="py-3 leading-7 text-gray-900 bg-white sm:py-3 md:py-3 lg:py-3 font-lora">
+<Pricing/>
+{/* <section className="py-3 leading-7 text-gray-900 bg-white sm:py-3 md:py-3 lg:py-3 font-lora">
 <div className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-4 lg:grid-cols-3">
             <div 
             className="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8">
@@ -549,7 +523,7 @@ function Formations() {
                 </ul>
             </div>
         </div>
-</section>
+</section> */}
         </div>
     )
 }

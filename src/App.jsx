@@ -11,10 +11,11 @@ import Pedimani from './components/fiches/pedimani'
 import Maquillage from './components/fiches/maquillage'
 import Onglerie from './components/fiches/onglerie'
 import Prestations from './components/Prestations'
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
+import { Hero } from './components/Hero';
 
 const theme = createTheme({
   defaultGradient:{
@@ -79,7 +80,7 @@ function App() {
           <MantineProvider theme={theme}>
           <Notifications />
        <BrowserRouter>
-       <Navbar />
+       <Hero />
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/formations" element={<Formations />} />

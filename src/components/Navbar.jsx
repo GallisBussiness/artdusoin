@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <>
-          <header className="bg-white z-10 w-10/12 mx-auto">
+          <header className="z-10 w-10/12 mx-auto">
   <div className="container px-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <a href="/" className="flex font-medium items-center text-gray-900 mb-4 md:mb-0">
-     <img src="/logo.svg" alt="logo" className="w-32 h-32 " />
+     <img src="/newlogo.png" alt="logo" className="w-32 h-20" />
     </a>
     <nav className="font-playfiar md:ml-auto md:mr-auto flex flex-wrap items-center text-lg font-semibold justify-center">
 

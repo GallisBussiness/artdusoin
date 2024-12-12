@@ -21,7 +21,7 @@ function Rituel() {
                 <hr className="w-10 h-1 bg-black my-1" />
                    <div className="text-lg text-black text-justify">
                   Après une exfoliation à la pulpe de coco, Plonger au coeur du lagon pour un enveloppement aux senteurs de tiaré paradisiaque et voyager à travers les pressions lentes et harmonieuses d'un massage drainant.
-                  Une sensation de détente et de d'évasion vous envahit. Ce soin sera accompagné d'un thé chand. Gommage-enveloppement-massage et thé
+                  Une sensation de détente et de d'évasion vous envahit. Ce soin sera accompagné d'un thé chand. Gommage-massage et thé
                  </div>
                  </div>
                  </div>

@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 export function Hero() {
   return (
     <>
-      <div className="bg-gray-50 font-[sans-serif] relative max-w-7xl mx-auto my-10 shadow-lg shadow-[#e9d9f3] rounded overflow-hidden">
+      <div className="bg-gray-50 font-[sans-serif] relative w-full mx-auto overflow-hidden">
+      <Navbar />
   <div className="grid sm:grid-cols-2 max-sm:gap-6">
     <div className="text-center p-6 flex flex-col justify-center items-center">
       <h3 className="font-extrabold text-5xl text-[#789757] leading-tight"><span className="text-gray-800">L'</span> ART DU SOIN</h3>
-      <h6 className="text-lg text-gray-800 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptas natus accusamus unde iste porro doloremque expedita ducimus voluptatem nihil.</h6>
+      <h6 className="text-lg text-gray-800 mt-4">Après une exfoliation des manoeuvres appuyées
+         et puissante délassent des muscles des épaules de la nuque et du dos suivi
+         d'un masque décontractant et hydratant à la boue marine et aux huiles essentielles.</h6>
       <Link to='/prestations' type="button" className="bg-[#789757] hover:bg-[#fbe094cc] text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-xl mt-8">
         CONSULTER NOS TARIFS
       </Link>
