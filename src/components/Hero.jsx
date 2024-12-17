@@ -12,7 +12,7 @@ export function Hero() {
       <h6 className="text-lg text-gray-800 mt-4">Après une exfoliation des manoeuvres appuyées
          et puissante délassent des muscles des épaules de la nuque et du dos suivi
          d'un masque décontractant et hydratant à la boue marine et aux huiles essentielles.</h6>
-      <Link to='/prestations' type="button" className="bg-[#789757] hover:bg-[#fbe094cc] text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-xl mt-8">
+      <Link to='/prestations' type="button" className="bg-[#789757] hover:bg-[#fbe094cc] text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-xl mt-8 animate-pulse">
         CONSULTER NOS TARIFS
       </Link>
       <ul className="flex flex-wrap justify-center gap-6 mt-8">

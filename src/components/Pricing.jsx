@@ -11,7 +11,7 @@ function Pricing() {
     <div className="box-border mx-auto border-solid sm:px-6 md:px-6 lg:px-4 max-w-7xl">
         <div className="flex flex-col items-center leading-7 text-center text-gray-900 border-0 border-gray-200">
             <h2 className="box-border mb-4 text-xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-2xl md:text-3xl font-playfiar">
-           FORMATION
+           FORMATIONS
             </h2>
             <h2 className="box-border mb-4 text-2xl font-semibold leading-tight tracking-tight text-gray-800 border-solid sm:text-lg md:text-xl">
             Choisissez un ou plusieurs modules 
