@@ -1,4 +1,6 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import PageTransition from './components/PageTransition';
 import Formations from './components/Formations'
 import Home from './components/Home'
 import Services from './components/Services'
@@ -11,93 +13,65 @@ import Pedimani from './components/fiches/pedimani'
 import Maquillage from './components/fiches/maquillage'
 import Onglerie from './components/fiches/onglerie'
 import Prestations from './components/Prestations'
-// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
 import { Hero } from './components/Hero';
 
 const theme = createTheme({
-  defaultGradient:{
-    deg:45,
-    from: 'blue',
-    to: 'green'
+  fontFamily: '"Montserrat", sans-serif',
+  headings: {
+    fontFamily: '"Cormorant Garamond", serif',
   },
+  primaryColor: 'dark',
   colors: {
-    'green': [
-      "#f2faed",
-      "#e6f1de",
-      "#cbe1bb",
-      "#afd095",
-      "#96c275",
-      "#87b962",
-      "#7eb556",
-      "#6ba045",
-      "#5e8e3c",
-      "#4e7b2e"
+    'gold': [
+      "#fdf8ef",
+      "#f5edd8",
+      "#eddcb5",
+      "#e4ca8e",
+      "#d4bb8a",
+      "#C9A96E",
+      "#B8944F",
+      "#a07e3e",
+      "#886a32",
+      "#705527"
     ],
-    'blue': [
-      "#ebf7ff",
-      "#d6ecfa",
-      "#a7d9f7",
-      "#77c4f5",
-      "#55b2f4",
-      "#43a7f4",
-      "#3aa2f5",
-      "#2e8dda",
-      "#227ec3",
-      "#016cac"
-    ],
-    'yellow':[
-      "#fdfce5",
-      "#f8f6d3",
-      "#f0ecaa",
-      "#e7e17c",
-      "#e0d957",
-      "#dbd33e",
-      "#d9d02f",
-      "#c0b820",
-      "#aaa316",
-      "#938c03"
-    ],
-    'beige':[
-      "#fafaea",
-      "#f4f4da",
-      "#e9e9b5",
-      "#dddd8b",
-      "#d2d268",
-      "#cccc52",
-      "#c8c845",
-      "#b1b136",
-      "#9d9d2d",
-      "#87871f"
-    ]
   },
 });
 
+function AnimatedRoutes() {
+  const location = useLocation();
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<PageTransition><Home /></PageTransition>} />
+        <Route path="/formations" element={<PageTransition><Formations /></PageTransition>} />
+        <Route path="/qui-sommes-nous" element={<PageTransition><Quisommenous /></PageTransition>} />
+        <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
+        <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+        <Route path="/prestations" element={<PageTransition><Prestations /></PageTransition>} />
+        <Route path="/formations/epilation" element={<PageTransition><Epilation /></PageTransition>} />
+        <Route path="/formations/soin-visage" element={<PageTransition><SoinVisage /></PageTransition>} />
+        <Route path="/formations/soin-corps" element={<PageTransition><SoinCorps /></PageTransition>} />
+        <Route path="/formations/pedicure-manicure" element={<PageTransition><Pedimani /></PageTransition>} />
+        <Route path="/formations/maquillage" element={<PageTransition><Maquillage /></PageTransition>} />
+        <Route path="/formations/onglerie" element={<PageTransition><Onglerie /></PageTransition>} />
+      </Routes>
+    </AnimatePresence>
+  );
+}
+
 function App() {
  return (
-          <MantineProvider theme={theme}>
-          <Notifications />
-       <BrowserRouter>
-       <Hero />
-      <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/formations" element={<Formations />} />
-      <Route path="/qui-sommes-nous" element={<Quisommenous />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/prestations" element={<Prestations />} />
-      <Route path="/formations/epilation" element={<Epilation />} />
-      <Route path="/formations/soin-visage" element={<SoinVisage />} />
-      <Route path="/formations/soin-corps" element={<SoinCorps />} />
-      <Route path="/formations/pedicure-manicure" element={<Pedimani />} />
-      <Route path="/formations/maquillage" element={<Maquillage />} />
-      <Route path="/formations/onglerie" element={<Onglerie />} />
-    </Routes>
-    <Footer />
-    </BrowserRouter>
-     </MantineProvider>
+    <MantineProvider theme={theme}>
+      <Notifications />
+      <BrowserRouter>
+        <Hero />
+        <AnimatedRoutes />
+        <Footer />
+      </BrowserRouter>
+    </MantineProvider>
  );
 }
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { useSearchParams } from 'react-router-dom'
@@ -35,20 +34,22 @@ function Prestations() {
    const i = getIndexByParam(params.get('q')) ?? 0
     return (
         <>
-        <div className="px-2 my-5 font-lora bg-white">
-        <h2 className="text-center box-border mb-4 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-3xl md:text-4xl font-playfiar">
-            NOS PRESTATIONS 
-            </h2>
-        <Tabs defaultIndex={i}>
-    <TabList>
-      <Tab>SOINS VISAGE</Tab>
-      <Tab>SOINS CORPS</Tab>
-      <Tab>EPILATIONS</Tab>
-      <Tab>SOINS MAINS & PIEDS</Tab>
-      <Tab>LES RITUELS</Tab>
-      <Tab>RITUELS MINCEURS</Tab>
-      <Tab>MAQUILLAGE</Tab>
-      <Tab>MAQUILLAGE PERMANENT</Tab>
+        <div className="bg-white py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="font-cormorant text-3xl md:text-5xl font-light tracking-wider text-black uppercase">Nos Prestations</h2>
+          <div className="separator"></div>
+        </div>
+        <Tabs defaultIndex={i} className="font-montserrat">
+    <TabList className="flex flex-wrap justify-center gap-2 mb-10 border-b-0">
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Soins Visage</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Soins Corps</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Epilations</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Mains &amp; Pieds</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Rituels</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Rituels Minceurs</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Maquillage</Tab>
+      <Tab className="px-4 py-2 text-xs tracking-widest2 uppercase cursor-pointer border border-neutral-200 text-neutral-500 hover:text-black hover:border-black transition-all duration-300" selectedClassName="!bg-black !text-white !border-black">Maquillage Permanent</Tab>
     </TabList>
 
     <TabPanel>
@@ -76,6 +77,7 @@ function Prestations() {
     <MaquillagePermanent />
     </TabPanel>
   </Tabs> 
+        </div>
         </div>
       
         </>
