@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Presentation from './Presentation';
 import Features from './Features';
 import { Fade } from "react-awesome-reveal";
+import { QRCodeSVG } from 'qrcode.react';
 
 function Home() {
   const services = [
@@ -43,9 +44,22 @@ function Home() {
           karina.chirara@gmail.com
         </a>
       </div>
+      {/* QR Code Réservation */}
+      <div className="mt-8 flex flex-col items-center">
+        <div className="p-3 bg-white border border-neutral-200 rounded-lg shadow-sm">
+          <QRCodeSVG
+            value="https://www.planity.com/lart-du-soin-57240-knutange"
+            size={100}
+            bgColor="#ffffff"
+            fgColor="#000000"
+            level="M"
+          />
+        </div>
+        <p className="mt-2 text-xs font-montserrat text-neutral-500 tracking-wider">Scannez pour réserver</p>
+      </div>
     </div>
-    <div className="relative bg-black flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-black opacity-20"></div>
+    <div className="relative bg-[#C4A77D] flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 bg-[#B8976D] opacity-20"></div>
       <div className="relative z-10 p-12">
         <img src="/logo.svg" className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border border-neutral-700" alt="Art du Soin" />
       </div>
