@@ -68,7 +68,9 @@ function App() {
       <Notifications />
       <BrowserRouter>
         <Hero />
-        <AnimatedRoutes />
+        <main className="pt-20 lg:pt-28">
+          <AnimatedRoutes />
+        </main>
         <Footer />
       </BrowserRouter>
     </MantineProvider>

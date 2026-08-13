@@ -10,6 +10,11 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    background-color: #fefdfb;
+    color: #1a1a1a;
+  }
+
   h1, h2, h3 {
     font-family: "Cormorant Garamond", serif;
   }
@@ -17,31 +22,156 @@
   h4, h5, h6 {
     font-family: "Playfair Display", serif;
   }
+
+  ::selection {
+    background-color: #f0adbe;
+    color: #1a1a1a;
+  }
 }
 
 @layer components {
+  /* Headings */
   .heading-primary {
-    @apply font-cormorant text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wide text-black uppercase;
+    @apply font-cormorant text-4xl md:text-5xl lg:text-6xl font-light tracking-wide text-neutral-900 uppercase leading-tight;
   }
   .heading-secondary {
-    @apply font-cormorant text-2xl md:text-3xl lg:text-4xl font-medium tracking-wide text-black;
+    @apply font-cormorant text-2xl md:text-3xl lg:text-4xl font-light tracking-wide text-neutral-900;
   }
   .heading-tertiary {
-    @apply font-playfiar text-lg md:text-xl font-medium tracking-wider text-black uppercase;
+    @apply font-playfiar text-lg md:text-xl font-medium tracking-wider text-neutral-900 uppercase;
   }
   .subtitle {
-    @apply font-playfiar text-base md:text-lg font-normal tracking-wider text-neutral-600;
+    @apply font-playfiar text-base md:text-lg font-normal tracking-wider text-neutral-500;
   }
   .body-text {
-    @apply font-montserrat text-sm md:text-base font-light leading-relaxed text-neutral-700;
+    @apply font-montserrat text-sm md:text-base font-light leading-relaxed text-neutral-600;
   }
+  .eyebrow {
+    @apply font-montserrat text-xs tracking-widest3 uppercase text-gold-600 font-medium;
+  }
+
+  /* Buttons */
   .btn-primary {
-    @apply bg-black text-white font-montserrat text-sm tracking-widest2 uppercase py-3 px-8 hover:bg-neutral-800 transition-all duration-300;
+    @apply inline-flex items-center justify-center gap-2 bg-neutral-900 text-white font-montserrat text-xs tracking-widest2 uppercase py-4 px-10 hover:bg-neutral-800 transition-all duration-300 rounded-full shadow-soft hover:shadow-soft-lg hover:-translate-y-0.5;
   }
   .btn-outline {
-    @apply border border-black text-black font-montserrat text-sm tracking-widest2 uppercase py-3 px-8 hover:bg-black hover:text-white transition-all duration-300;
+    @apply inline-flex items-center justify-center gap-2 border border-neutral-900 text-neutral-900 font-montserrat text-xs tracking-widest2 uppercase py-4 px-10 hover:bg-neutral-900 hover:text-white transition-all duration-300 rounded-full hover:-translate-y-0.5;
   }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 bg-gold-500 text-white font-montserrat text-xs tracking-widest2 uppercase py-4 px-10 hover:bg-gold-600 transition-all duration-300 rounded-full shadow-gold hover:shadow-soft-lg hover:-translate-y-0.5;
+  }
+  .btn-blush {
+    @apply inline-flex items-center justify-center gap-2 bg-blush-300 text-neutral-900 font-montserrat text-xs tracking-widest2 uppercase py-4 px-10 hover:bg-blush-400 transition-all duration-300 rounded-full shadow-blush hover:shadow-soft-lg hover:-translate-y-0.5;
+  }
+
+  /* Separators */
   .separator {
-    @apply w-16 h-[1px] bg-gold mx-auto my-6;
+    @apply w-16 h-[1px] bg-gold-500 mx-auto my-6;
+  }
+  .separator-left {
+    @apply w-12 h-[1px] bg-gold-500 my-6;
+  }
+  .separator-blush {
+    @apply w-16 h-[1px] bg-blush-400 mx-auto my-6;
+  }
+
+  /* Cards */
+  .card-luxury {
+    @apply bg-white rounded-2xl shadow-soft hover:shadow-soft-lg transition-all duration-500 overflow-hidden border border-neutral-100;
+  }
+  .card-dark {
+    @apply bg-neutral-900 rounded-2xl shadow-soft hover:shadow-soft-lg transition-all duration-500 overflow-hidden border border-neutral-800;
+  }
+
+  /* Section spacing */
+  .section-pad {
+    @apply py-20 md:py-28;
+  }
+  .container-lux {
+    @apply max-w-7xl mx-auto px-6 md:px-8;
+  }
+
+  /* Link underline animation */
+  .link-underline {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-gold-500 after:transition-all after:duration-300 hover:after:w-full;
+  }
+
+  /* Image hover effects */
+  .img-zoom {
+    @apply overflow-hidden;
+  }
+  .img-zoom img {
+    @apply transition-transform duration-700 ease-out;
+  }
+  .img-zoom:hover img {
+    @apply scale-105;
+  }
+
+  /* Grayscale to color hover */
+  .img-grayscale {
+    @apply grayscale transition-all duration-700 ease-out;
+  }
+  .img-grayscale:hover {
+    @apply grayscale-0;
+  }
+
+  /* Decorative elements */
+  .ornament {
+    @apply flex items-center justify-center gap-3 text-gold-500;
+  }
+  .ornament::before,
+  .ornament::after {
+    content: '';
+    @apply block w-12 h-[1px] bg-gold-400;
+  }
+
+  /* Shimmer text */
+  .text-shimmer {
+    background: linear-gradient(90deg, #C9A96E 0%, #f0adbe 25%, #C9A96E 50%, #f0adbe 75%, #C9A96E 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s linear infinite;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-gradient-lux {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+  .bg-gradient-gold {
+    background: linear-gradient(135deg, #C9A96E 0%, #B8944F 100%);
+  }
+  .bg-gradient-blush {
+    background: linear-gradient(135deg, #f0adbe 0%, #e8849e 100%);
+  }
+  .bg-gradient-cream {
+    background: linear-gradient(180deg, #fefdfb 0%, #fdf9f3 100%);
+  }
+  .border-gradient-gold {
+    border-image: linear-gradient(135deg, #C9A96E, #f0adbe) 1;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
