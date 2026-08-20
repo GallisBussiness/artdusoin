@@ -34,7 +34,7 @@ function Navbar() {
             <div className="container-lux flex items-center justify-between">
                 {/* Logo */}
                 <a href="/" className="flex items-center shrink-0 group">
-                    <img src="/logo/ck.png" alt="CK Esthetik" className="h-12 md:h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+                    <img src="/logo/ck.jpeg" alt="CK Esthetik" className="h-12 md:h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
                 </a>
 
                 {/* Desktop nav */}

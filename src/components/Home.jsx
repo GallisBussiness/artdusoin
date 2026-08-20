@@ -38,12 +38,12 @@ function Home() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <motion.img
-              src="/logo/ck.png"
+              src="/logo/cknb.png"
               alt="CK Esthetik"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              className="w-36 md:w-48 lg:w-56 h-auto object-contain mb-2"
+              className="w-36 md:w-48 lg:w-56 h-auto object-contain mb-2 mx-auto"
             />
             <p className="font-montserrat text-xs md:text-sm font-light leading-relaxed text-neutral-600 max-w-md mx-auto">
               Des soins d'exception pour sublimer votre beauté naturelle.
