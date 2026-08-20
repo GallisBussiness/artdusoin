@@ -72,9 +72,9 @@ function FicheLayout({ title, duration, objective, days, image, price }) {
               {/* Day header */}
               <div className="flex items-center gap-4 p-6 md:p-8 bg-gradient-to-r from-neutral-900 to-neutral-800">
                 <div className="shrink-0 w-12 h-12 rounded-full bg-gold-500 flex items-center justify-center">
-                  <span className="font-cormorant text-xl text-white font-light">{i + 1}</span>
+                  <span className="font-montserrat text-lg text-white font-normal">{i + 1}</span>
                 </div>
-                <h2 className="font-cormorant text-xl md:text-2xl font-light tracking-wider text-white uppercase">{day.title}</h2>
+                <h2 className="font-montserrat text-base md:text-lg font-normal tracking-wide text-white">{day.title}</h2>
               </div>
 
               {/* Sessions */}
@@ -83,7 +83,7 @@ function FicheLayout({ title, duration, objective, days, image, price }) {
                   <div key={j} className="border-l-2 border-gold-300 pl-6">
                     <div className="flex items-center gap-3 mb-3">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 text-gold-600"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h5.5m5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
-                      <h3 className="font-playfiar text-sm md:text-base font-medium tracking-wider text-neutral-900 uppercase">{session.time}</h3>
+                      <h3 className="font-montserrat text-sm md:text-base font-normal text-neutral-900">{session.time}</h3>
                     </div>
                     <ul className="space-y-2">
                       {session.items.map((item, k) => (
