@@ -26,7 +26,7 @@ function Footer() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-12"
                 >
-                    <img src="/logo/ck.png" alt="CK Esthetik" className="h-16 w-auto object-contain mx-auto mb-4 brightness-0 invert" />
+                    <img src="/logo/ck.jpeg" alt="CK Esthetik" className="h-16 w-auto object-contain mx-auto mb-4" />
                     <div className="ornament max-w-xs mx-auto"></div>
                     <p className="font-montserrat text-sm text-neutral-400 mt-6 max-w-md mx-auto font-light tracking-wide">
                         L'art du soin d'exception. Une expertise de 25 années au service de votre bien-être et de votre beauté naturelle.

@@ -10,6 +10,7 @@ import MaquillagePermanent from './prestations/MaquillagePermanent';
 import Rituel from './prestations/Rituel';
 import RituelMinceur from './prestations/RituelMinceur';
 import Epilation from './prestations/Epilation';
+import LPG from './prestations/LPG';
 
 const getIndexByParam = (text) => {
   switch (text) {
@@ -21,6 +22,7 @@ const getIndexByParam = (text) => {
     case "rituel-minceur": return 5;
     case "maquillage": return 6;
     case "maquillage-permanent": return 7;
+    case "lpg": return 8;
     default: return 0;
   }
 }
@@ -34,6 +36,7 @@ const tabLabels = [
   "Rituels Minceur",
   "Maquillage",
   "Maquillage Permanent",
+  "LPG",
 ]
 
 function Prestations() {
@@ -80,6 +83,7 @@ function Prestations() {
           <TabPanel><RituelMinceur /></TabPanel>
           <TabPanel><Maquillage /></TabPanel>
           <TabPanel><MaquillagePermanent /></TabPanel>
+          <TabPanel><LPG /></TabPanel>
         </Tabs>
       </div>
     </div>
