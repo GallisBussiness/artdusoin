@@ -13,6 +13,7 @@ import Pedimani from './components/fiches/pedimani'
 import Maquillage from './components/fiches/maquillage'
 import Onglerie from './components/fiches/onglerie'
 import Prestations from './components/Prestations'
+import Galerie from './components/Galerie'
 import Footer from './components/Footer';
 import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
@@ -51,6 +52,7 @@ function AnimatedRoutes() {
         <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
         <Route path="/prestations" element={<PageTransition><Prestations /></PageTransition>} />
+        <Route path="/galerie" element={<PageTransition><Galerie /></PageTransition>} />
         <Route path="/formations/epilation" element={<PageTransition><Epilation /></PageTransition>} />
         <Route path="/formations/soin-visage" element={<PageTransition><SoinVisage /></PageTransition>} />
         <Route path="/formations/soin-corps" element={<PageTransition><SoinCorps /></PageTransition>} />

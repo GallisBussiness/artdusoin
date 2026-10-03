@@ -22,6 +22,7 @@ function Navbar() {
         { to: '/prestations', label: 'Prestations' },
         { to: '/formations', label: 'Formations' },
         { to: '/qui-sommes-nous', label: 'À propos' },
+        { to: '/galerie', label: 'Galerie' },
         { to: '/contact', label: 'Contact' },
     ]
 
