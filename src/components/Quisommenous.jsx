@@ -43,9 +43,9 @@ function Quisommenous() {
                                 et en tant que formatrice aux métiers de la beauté.
                             </p>
                             <p className="font-montserrat text-sm md:text-base font-light leading-relaxed text-neutral-600 mt-4">
-                                Notre centre vous accueille dans un cadre zen et discret. CK ESTHETIK se veut un centre
-                                d'excellence au service de sa clientèle, proposant une gamme variée de formations et de soins
-                                pour un public masculin et féminin.
+                                Notre centre vous accueille dans un cadre zen et discret. ART DU SOIN BY CK se veut un centre
+                                de beauté, d'excellence au service de sa clientèle, proposant une gamme esthétique et de soins
+                                experts pour un public masculin et féminin.
                             </p>
                         </motion.div>
 
@@ -58,7 +58,7 @@ function Quisommenous() {
                         >
                             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-gold-200 to-blush-200 opacity-40 blur-2xl"></div>
                             <img
-                                src="team1.jpeg"
+                                src="/logo/banner.jpeg"
                                 className="relative w-full h-full max-h-[600px] object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700 shadow-soft-lg"
                                 alt="Qui sommes-nous ?"
                             />

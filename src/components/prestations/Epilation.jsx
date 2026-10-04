@@ -39,16 +39,15 @@ function Epilation() {
     ]
 
     const forfaits2 = [
-      "Demi-jambe + Aisselles — 26€",
-      "Demi-jambe + Maillot Intégral — 39€",
-      "Jambe Complète + Maillot Intégral — 50€",
+      "Demi-jambe + Maillot Intégral — 45€ 45min",
+      "Jambe Complète + Maillot Intégral — 55€",
       "Sourcil + Lèvres — 18€",
     ]
 
     const forfaits3 = [
-      "Demi-jambe + Maillot Échancré + Aisselles — 45€",
-      "Jambe Complète + Maillot Intégral + Aisselles — 60€",
-      "Sourcil + Lèvres + Menton — 25€",
+      "Demi-jambe + Maillot Échancré + Aisselles — 45€ 45min",
+      "Jambe Complète + Maillot Intégral + Aisselles — 60€ 60min",
+      "Sourcil + Lèvres + Menton — 25€ 30min",
     ]
 
     const renderCard = (soin, i) => (
@@ -109,7 +108,7 @@ function Epilation() {
               transition={{ duration: 0.5 }}
               className="bg-white rounded-2xl border border-neutral-100 hover:border-gold-300 hover:shadow-soft-lg transition-all duration-500 p-6 md:p-8"
             >
-              <span className="font-cormorant text-lg text-neutral-900 font-medium tracking-wider uppercase">Forfait 2 Zones</span>
+              <span className="text-lg text-neutral-900 font-medium tracking-wider uppercase">Forfait 2 Zones</span>
               <div className="w-10 h-[1px] bg-gold-400 my-4"></div>
               <div className="space-y-3">
                 {forfaits2.map((f, i) => (
@@ -123,7 +122,7 @@ function Epilation() {
               transition={{ duration: 0.5 }}
               className="bg-white rounded-2xl border border-neutral-100 hover:border-gold-300 hover:shadow-soft-lg transition-all duration-500 p-6 md:p-8"
             >
-              <span className="font-cormorant text-lg text-neutral-900 font-medium tracking-wider uppercase">Forfait 3 Zones</span>
+              <span className="text-lg text-neutral-900 font-medium tracking-wider uppercase">Forfait 3 Zones</span>
               <div className="w-10 h-[1px] bg-gold-400 my-4"></div>
               <div className="space-y-3">
                 {forfaits3.map((f, i) => (

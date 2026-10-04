@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 function SoinVisage() {
     const soins = [
-      { nom: "Soin Pureté d'Orient", duree: "45 min", prix: "55 €", desc: "L'eau de rose est utilisée depuis l'antiquité pour ses vertus régénérantes et anti-bactériennes. Conseillé pour les peaux ternes, grasses et acnéiques." },
+      { nom: "Soin Pureté", duree: "45 min", prix: "55 €", desc: "Les oligos éléments sont utilisés depuis l'antiquité pour leurs vertus régénérantes et anti-bactériennes. Conseillé pour les peaux ternes, grasses et acnéiques." },
       { nom: "Soin Cocooning Douceur", duree: "1h", prix: "60 €", desc: "Ce soin est conseillé pour les peaux déshydratées et sensibles. Laissez-vous coconner à travers les vertus de l'aloe vera, retrouvez la douceur et l'énergie de votre peau." },
       { nom: "Soin Thalasso Minéral", duree: "1h", prix: "70 €", desc: "Confort et pureté, ce soin du visage se prodigue dans une découverte profonde de l'océan, recharge votre peau en oligo-éléments pour une hydratation intense." },
       { nom: "Soin SOS Oxygène", duree: "1h 15 min", prix: "80 €", desc: "Pour lui redonner lumière et souplesse, soin précieux revitalisant et anti-rides. Une véritable pépite d'or qui sublime votre beauté à travers ce soin d'exception." },

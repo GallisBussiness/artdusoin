@@ -12,8 +12,11 @@ import SoinCorps from './components/fiches/SoinCorps'
 import Pedimani from './components/fiches/pedimani'
 import Maquillage from './components/fiches/maquillage'
 import Onglerie from './components/fiches/onglerie'
+import ExtensionCils from './components/fiches/ExtensionCils'
 import Prestations from './components/Prestations'
 import Galerie from './components/Galerie'
+import MentionsLegales from './components/MentionsLegales'
+import PolitiqueConfidentialite from './components/PolitiqueConfidentialite'
 import Footer from './components/Footer';
 import { MantineProvider, createTheme } from '@mantine/core';
 import { Notifications } from '@mantine/notifications';
@@ -59,6 +62,9 @@ function AnimatedRoutes() {
         <Route path="/formations/pedicure-manicure" element={<PageTransition><Pedimani /></PageTransition>} />
         <Route path="/formations/maquillage" element={<PageTransition><Maquillage /></PageTransition>} />
         <Route path="/formations/onglerie" element={<PageTransition><Onglerie /></PageTransition>} />
+        <Route path="/formations/extension-cils" element={<PageTransition><ExtensionCils /></PageTransition>} />
+        <Route path="/mentions-legales" element={<PageTransition><MentionsLegales /></PageTransition>} />
+        <Route path="/politique-de-confidentialite" element={<PageTransition><PolitiqueConfidentialite /></PageTransition>} />
       </Routes>
     </AnimatePresence>
   );

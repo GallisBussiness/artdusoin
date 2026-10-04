@@ -7,6 +7,7 @@ function Footer() {
         { to: '/prestations', label: 'Prestations' },
         { to: '/formations', label: 'Formations' },
         { to: '/qui-sommes-nous', label: 'À propos' },
+        { to: '/galerie', label: 'Galerie' },
         { to: '/contact', label: 'Contact' },
     ]
 
@@ -75,8 +76,16 @@ function Footer() {
 
                 {/* Bottom bar */}
                 <div className="pt-8 border-t border-neutral-800 text-center">
+                    <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-4">
+                        <Link to="/mentions-legales" className="text-[11px] text-neutral-500 hover:text-gold-400 font-montserrat tracking-wider uppercase transition-colors duration-300">
+                            Mentions légales
+                        </Link>
+                        <Link to="/politique-de-confidentialite" className="text-[11px] text-neutral-500 hover:text-gold-400 font-montserrat tracking-wider uppercase transition-colors duration-300">
+                            Politique de confidentialité
+                        </Link>
+                    </div>
                     <p className="text-xs text-neutral-500 font-montserrat tracking-wider">
-                        &copy; {new Date().getFullYear()} CK Esthetik — L'Art du Soin. Tous droits réservés.
+                        &copy; {new Date().getFullYear()} L'Art du Soin by CK. Tous droits réservés.
                     </p>
                 </div>
             </div>

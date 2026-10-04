@@ -6,9 +6,11 @@ function SoinPediManu() {
       { nom: "Pose Faux Ongles Gel", duree: "1h 30 min", prix: "55 €" },
       { nom: "Chablon", duree: "1h 30 min", prix: "65 €" },
       { nom: "Ongle Cassé Hors Remplissage", duree: "15 min", prix: "5 €" },
-      { nom: "Ongle Cassé en Remplissage", duree: "1h", prix: "2 €" },
-      { nom: "Décor d'Ongle", duree: "1h", prix: "2 €" },
-      { nom: "Supplément Strass", duree: "1h", prix: "1 €" },
+      { nom: "Ongle Cassé en Remplissage", duree: "15 min", prix: "2 €" },
+      { nom: "Décor d'Ongle", duree: "15 min", prix: "2 €" },
+      { nom: "Supplément Strass", duree: "15 min", prix: "1 €" },
+      { nom: "Décor Nail Art", duree: "15 min", prix: "4 €" },
+      { nom: "Forfait Nail Art", duree: "45 min", prix: "40 €" },
     ]
 
     const pediManu = [
@@ -17,9 +19,10 @@ function SoinPediManu() {
       { nom: "Forfait Mains et Pieds", duree: "1h 30 min", prix: "75 €" },
       { nom: "Forfait Thermal (Masque + Massage)", duree: "30 min", prix: "30 €" },
       { nom: "Pose Vernis Main", duree: "30 min", prix: "10 €" },
-      { nom: "Pose Vernis Permanent (mains ou pieds)", duree: "45 min", prix: "28 €" },
+      { nom: "Pose Vernis Permanent (mains ou pieds)", duree: "45 min", prix: "30 €" },
       { nom: "Dépose Vernis Permanent", duree: "30 min", prix: "10 €" },
-      { nom: "Forfait Pose Vernis Permanent (mains et pieds)", duree: "1h 15 min", prix: "50 €" },
+      { nom: "Forfait Pose Vernis Permanent (mains et pieds)", duree: "1h 15 min", prix: "55 €" },
+      { nom: "Gainage + Pose Vernis Semi Permanent", duree: "1h", prix: "43 €" },
     ]
 
     const renderCard = (soin, i) => (

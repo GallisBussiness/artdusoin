@@ -34,20 +34,16 @@ const formations = [
     ],
   },
   {
-    title: "Massage & Soins Corps",
+    title: "Massage",
     price: "1390€",
     image: "massage.jpg",
     link: "/formations/soin-corps",
     features: [
       "Matériel utilisé",
       "Règles d'hygiène",
-      "Déroulement d'un soin corps",
-      "Gommage corps",
-      "Enveloppement",
+      "Déroulement d'un massage",
+      "Techniques de massage",
       "Massage",
-      "Soins jambes lourdes",
-      "Soin du buste / dos",
-      "Pratique sur modèles réels",
     ],
   },
   {
@@ -93,6 +89,21 @@ const formations = [
       "Colorimétrie",
       "Déroulement d'un maquillage",
       "Techniques : Jour / Cocktail / Soir / Mariée",
+      "Pratique sur modèles réels",
+    ],
+  },
+  {
+    title: "Extension de Cils",
+    price: "Sur devis",
+    image: "CILS.jpg",
+    link: "/formations/extension-cils",
+    features: [
+      "Kit de formation remis",
+      "Règles d'hygiène",
+      "Cycle de vie des cils",
+      "Technique pose & dépose",
+      "TechniEffet naturel / sophistiqué",
+      "Maniement des pincettes",
       "Pratique sur modèles réels",
     ],
   },
@@ -210,11 +221,21 @@ function Pricing() {
           className="text-center mb-16"
         >
           <span className="eyebrow mb-4 block">Catalogue</span>
-          <h2 className="font-cormorant text-3xl md:text-5xl font-light tracking-wider text-neutral-900 uppercase">Nos Formations</h2>
+          <h2 className="font-cormorant text-xl md:text-2xl font-light tracking-wider text-neutral-900 uppercase">Nos Formations</h2>
           <div className="ornament mt-6 max-w-[200px] mx-auto"></div>
           <p className="font-montserrat text-sm font-light text-neutral-500 tracking-wider mt-4 max-w-xl mx-auto">
             Choisissez un ou plusieurs modules pour devenir une professionnelle de la beauté
           </p>
+
+          {/* Disponibility alert */}
+          <div className="mt-8 inline-flex items-center gap-3 bg-gold-50 border border-gold-300 rounded-2xl px-6 py-4 shadow-soft">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-gold-600 shrink-0">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+            </svg>
+            <p className="font-montserrat text-sm text-neutral-700 text-left">
+              <span className="font-medium text-neutral-900">Information :</span> nos formations seront disponibles avant <span className="font-medium text-gold-700">avril 2027</span>
+            </p>
+          </div>
 
           {/* Duration badges */}
           <div className="flex flex-wrap justify-center gap-3 mt-8">
@@ -223,6 +244,15 @@ function Pricing() {
             <span className="font-montserrat text-xs text-neutral-600 bg-white border border-neutral-200 px-4 py-2 rounded-full shadow-soft">20h de pratique</span>
             <span className="font-montserrat text-xs text-neutral-600 bg-white border border-neutral-200 px-4 py-2 rounded-full shadow-soft">8h de DM</span>
             <span className="font-montserrat text-xs text-neutral-600 bg-white border border-neutral-200 px-4 py-2 rounded-full shadow-soft">Workshop</span>
+          </div>
+
+          {/* Alma payment banner */}
+          <div className="mt-8 inline-flex items-center gap-4 bg-white border border-gold-200 rounded-2xl px-6 py-4 shadow-soft">
+            <img src="/logo/alma.jpeg" alt="Alma" className="h-8 w-auto object-contain rounded-md" />
+            <div className="text-left">
+              <p className="font-montserrat text-xs tracking-widest2 uppercase text-neutral-400">Paiement facilité</p>
+              <p className="font-cormorant text-lg text-neutral-900 font-medium tracking-wider">Réglez en 3, 4 ou 10 fois</p>
+            </div>
           </div>
         </motion.div>
 

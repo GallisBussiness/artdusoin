@@ -45,12 +45,14 @@ const FloatEl = ({ children, className, delay = 0 }) => (
 )
 
 const services = [
-  { title: "Soins Visages", image: "/cadran/imgsoins.jpg", link: "/prestations?q=soin-visage", desc: "Sublimez votre éclat" },
+  { title: "Soins Visage", image: "/cadran/imgsoins.jpg", link: "/prestations?q=soin-visage", desc: "Sublimez votre éclat" },
   { title: "Soins Corps", image: "/cadran/massage.webp", link: "/prestations?q=soin-corps", desc: "Détente & bien-être" },
-  { title: "Maquillage", image: "/cadran/maquillage.jpeg", link: "/prestations?q=maquillage", desc: "Révélez votre beauté" },
-  { title: "Rituels", image: "/cadran/imgfleur.jpg", link: "/prestations?q=rituel", desc: "Expérience sensorielle" },
+  { title: "LPG", image: "/cadran/imgvert.jpg", link: "/prestations?q=lpg", desc: "Technologie minceur" },
   { title: "Épilations", image: "/EPILATION.jpg", link: "/prestations?q=epilation", desc: "Peau lisse & douce" },
+  { title: "Rituels", image: "/cadran/imgfleur.jpg", link: "/prestations?q=rituel", desc: "Expérience sensorielle" },
   { title: "Mains & Pieds", image: "/cadran/imgpied.jpg", link: "/prestations?q=pedicure-manicure", desc: "Soin & précision" },
+  { title: "Onglerie", image: "/onglerie.jpg", link: "/prestations?q=pedicure-manicure", desc: "Brillance & style" },
+  { title: "Maquillage", image: "/cadran/maquillage.jpeg", link: "/prestations?q=maquillage", desc: "Révélez votre beauté" },
 ]
 
 const galleryImages = [
@@ -161,14 +163,50 @@ function Home() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="mt-6 flex flex-col items-center"
           >
-            <div className="p-2 bg-white rounded-xl shadow-soft border border-neutral-100">
-              <QRCodeSVG
-                value="https://www.planity.com/lart-du-soin-57240-knutange"
-                size={72}
-                bgColor="#ffffff"
-                fgColor="#1a1a1a"
-                level="M"
-              />
+            <div className="flex items-center gap-3 md:gap-4">
+              <div className="flex items-center gap-2">
+                <a
+                  href="https://www.planity.com/lart-du-soin-57240-knutange"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-xl shadow-soft border border-neutral-100 flex items-center justify-center p-1.5 hover:shadow-soft-lg hover:border-gold-300 hover:-translate-y-0.5 transition-all duration-300"
+                  title="Réserver sur Planity"
+                >
+                  <img src="/logo/planity.png" alt="Planity" className="w-full h-full object-contain rounded-lg" />
+                </a>
+                <a
+                  href="https://www.thalgo.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-xl shadow-soft border border-neutral-100 flex items-center justify-center p-1.5 hover:shadow-soft-lg hover:border-gold-300 hover:-translate-y-0.5 transition-all duration-300"
+                  title="THALGO"
+                >
+                  <img src="/logo/thalgo.png" alt="THALGO" className="w-full h-full object-contain rounded-lg" />
+                </a>
+                <div
+                  className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-xl shadow-soft border border-neutral-100 flex items-center justify-center p-1.5"
+                  title="Alma Lasers"
+                >
+                  <img src="/logo/alma.jpeg" alt="Alma Lasers" className="w-full h-full object-contain rounded-lg" />
+                </div>
+                <Link
+                  to="/prestations?q=lpg"
+                  className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-xl shadow-soft border border-neutral-100 flex items-center justify-center p-1.5 hover:shadow-soft-lg hover:border-gold-300 hover:-translate-y-0.5 transition-all duration-300"
+                  title="Soins LPG"
+                >
+                  <img src="/logo/lpg.png" alt="LPG" className="w-full h-full object-contain rounded-lg" />
+                </Link>
+              </div>
+              <div className="w-px h-10 bg-neutral-200 hidden sm:block"></div>
+              <div className="p-2 bg-white rounded-xl shadow-soft border border-neutral-100">
+                <QRCodeSVG
+                  value="https://www.planity.com/lart-du-soin-57240-knutange"
+                  size={72}
+                  bgColor="#ffffff"
+                  fgColor="#1a1a1a"
+                  level="M"
+                />
+              </div>
             </div>
             <p className="mt-2 text-xs font-montserrat text-neutral-500 tracking-wider">Scannez pour réserver</p>
           </motion.div>
@@ -177,12 +215,12 @@ function Home() {
         {/* Right: visual */}
         <div className="relative overflow-hidden order-1 md:order-2 min-h-[40vh] md:min-h-full">
           <motion.img
-            src="/bannner.png"
+            src="/logo/banner.jpeg"
             alt="CK Esthetik — L'Art du Soin"
             initial={{ scale: 1.1 }}
             animate={{ scale: 1 }}
             transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/40 via-transparent to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-br from-blush-400/20 via-transparent to-gold-500/15"></div>
@@ -199,32 +237,6 @@ function Home() {
           </FloatEl>
           <FloatEl delay={1.2} className="bottom-16 left-1/4 animate-twinkle">
             <Sparkle className="w-5 h-5 text-white/70" />
-          </FloatEl>
-
-          {/* Floating Thalgo products */}
-          <FloatEl delay={1.4} className="top-8 left-6 md:top-14 md:left-12 z-10">
-            <div className="animate-float">
-              <a
-                href="https://www.thalgo.fr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pointer-events-auto group block w-24 h-28 md:w-32 md:h-40 rounded-2xl overflow-hidden bg-white shadow-soft-xl border-2 border-white -rotate-6 group-hover:rotate-0 group-hover:scale-105 transition-all duration-500"
-              >
-                <img src="/thalgo_p1.jpg" alt="THALGO — Sérum Désaltérant Intensif 48H" className="w-full h-full object-cover" />
-              </a>
-            </div>
-          </FloatEl>
-          <FloatEl delay={1.7} className="bottom-10 right-6 md:bottom-16 md:right-14 z-10">
-            <div className="animate-float" style={{ animationDelay: '3s' }}>
-              <a
-                href="https://www.thalgo.fr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pointer-events-auto group block w-24 h-28 md:w-32 md:h-40 rounded-2xl overflow-hidden bg-white shadow-soft-xl border-2 border-white rotate-6 group-hover:rotate-0 group-hover:scale-105 transition-all duration-500"
-              >
-                <img src="/thalgo_p2.jpg" alt="THALGO — Sérum Intensif Lift-Fermeté" className="w-full h-full object-cover" />
-              </a>
-            </div>
           </FloatEl>
         </div>
       </section>
@@ -267,7 +279,7 @@ function Home() {
             <p className="font-montserrat text-sm font-light text-neutral-500 tracking-wider mt-4">Des soins d'exception pour votre bien-être</p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 max-w-5xl mx-auto">
             {services.map((service, index) => (
               <motion.div
                 key={index}

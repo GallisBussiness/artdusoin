@@ -208,6 +208,35 @@ export const formationsData = {
       },
     ],
   },
+  "extension-cils": {
+    title: "Extension de Cils",
+    price: "Sur devis",
+    duration: "3 jours / 21h",
+    objective: "Théorie et pratique de la méthode d'extension de cils (pose et dépose).",
+    days: [
+      {
+        title: "Jour 1 — Théorie & Pratique",
+        sessions: [
+          { time: "9h00 à 12h30 — Théorie", items: ["Remise de votre KIT", "Remise des supports de cours extension de cils", "Les cils (cycle de vie)", "L'hygiène, le matériel, l'entretien des cils, les retouches, le marketing, les tarifs", "Apprendre à reconnaître une cliente potentielle", "TechniEffet selon l'effet recherché (naturel, sophistiqué)", "TechniEffet selon la morphologie de votre cliente", "Agrément et modalité de l'examen", "Maniement des deux pincettes de pose (15 mn) : entraînement sur faux cils avant modèles vivants"] },
+          { time: "13h30 à 17h00 — Pratique", items: ["Installation des modèles fournis", "Démonstration d'une pose sur les cils supérieurs et inférieurs par notre formatrice", "Pratique sur poupée", "Nettoyage des instruments et stockage", "Bilan de stage et questions"] },
+        ],
+      },
+      {
+        title: "Jour 2 — Pratique",
+        sessions: [
+          { time: "9h00 à 12h30", items: ["Installation des modèles", "Pratique sur modèle vivant", "Nettoyage des instruments"] },
+          { time: "13h30 à 17h00", items: ["Installation des modèles", "Pratique sur modèle vivant", "Nettoyage des instruments", "Bilan et questions"] },
+        ],
+      },
+      {
+        title: "Jour 3 — Révision & Examen",
+        sessions: [
+          { time: "9h00 à 12h30 — Théorie", items: ["Révision", "Questions / réponses"] },
+          { time: "13h30 à 17h00 — Examen", items: ["Examen théorique et pratique", "L'attestation de formation sera remise sous réserve de réussite au test de pose d'extensions de cils"] },
+        ],
+      },
+    ],
+  },
   maquillage: {
     title: "Maquillage",
     price: "1290€",
@@ -257,7 +286,9 @@ export const formationKeyMap = {
   "Épilations": "epilation",
   "Soins du Visage": "soin-visage",
   "Massage & Soins Corps": "soin-corps",
+  "Massage": "soin-corps",
   "Manucure & Pédicure": "pedicure-manicure",
   "Onglerie": "onglerie",
   "Maquillage": "maquillage",
+  "Extension de Cils": "extension-cils",
 }

@@ -2,8 +2,8 @@ import { motion } from 'framer-motion'
 
 function Rituel() {
     const rituels = [
-      { nom: "Rituel Prestige", duree: "1h 30 min", prix: "70 €", desc: "Après une exfoliation à la pulpe de coco, plongez au cœur du lagon pour un enveloppement aux senteurs de tiaré paradisiaque et voyagez à travers les pressions lentes et harmonieuses d'un massage drainant. Une sensation de détente et d'évasion vous envahit. Gommage, massage et thé." },
-      { nom: "Rituel Thalasso Minéral", duree: "2h 30 min", prix: "145 €", desc: "Sous l'effet conjugué des boues marines naturelles et des sels marins, ce soin vous offre une exfoliation détoxifiante, une hydratation profonde et une douceur extrême. Retrouvez la pureté de votre corps et de votre visage. Gommage, enveloppement, soin visage, massage et thé." },
+      { nom: "Rituel Prestige", duree: "60 min", prix: "70 €", desc: "Après une exfoliation à la pulpe de coco, plongez au cœur du lagon pour un enveloppement aux senteurs de tiaré paradisiaque et voyagez à travers les pressions lentes et harmonieuses d'un massage drainant. Une sensation de détente et d'évasion vous envahit. Gommage, massage et thé." },
+      { nom: "Rituel Thalasso Minéral", duree: "120 min", prix: "150 €", desc: "Sous l'effet conjugué des boues marines naturelles et des sels marins, ce soin vous offre une exfoliation détoxifiante, une hydratation profonde et une douceur extrême. Retrouvez la pureté de votre corps et de votre visage. Gommage, enveloppement, soin visage, massage et thé." },
       { nom: "Rituel Ancestral", duree: "4h", prix: "270 €", desc: "Issu d'une tradition ancestrale orientale, ce soin vous invite à purifier votre corps en profondeur grâce aux vertus exfoliantes du savon noir d'Essaouira, enveloppé par la douceur du rhassoul et de ses eaux florales. Gommage, enveloppement, massage, thé, soin visage, beauté des mains et pieds." },
     ]
 
