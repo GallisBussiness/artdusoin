@@ -67,15 +67,16 @@ function SoinCorps() {
             Soins Spécifiques
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {specifiques.map(renderCard)}
+            {renderCard(specifiques[0], 0)}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
-              className="rounded-2xl overflow-hidden shadow-soft img-zoom h-64 lg:h-auto"
+              className="rounded-2xl overflow-hidden shadow-soft img-zoom h-64 md:col-span-2 lg:col-span-1 lg:h-auto"
             >
               <img src="/pexel_visage.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Soin corps" />
             </motion.div>
+            {renderCard(specifiques[1], 1)}
           </div>
         </div>
 

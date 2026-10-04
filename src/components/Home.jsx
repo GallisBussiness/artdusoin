@@ -149,9 +149,9 @@ function Home() {
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
               +33 785 153 621
             </a>
-            <a href="mailto:karina.chirara@gmail.com" className="flex items-center gap-2 text-neutral-500 hover:text-gold-600 text-xs font-montserrat tracking-wider transition-colors duration-300">
+            <a href="mailto:artsoin.ck@gmail.com" className="flex items-center gap-2 text-neutral-500 hover:text-gold-600 text-xs font-montserrat tracking-wider transition-colors duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-              karina.chirara@gmail.com
+              artsoin.ck@gmail.com
             </a>
           </motion.div>
 
@@ -199,6 +199,32 @@ function Home() {
           </FloatEl>
           <FloatEl delay={1.2} className="bottom-16 left-1/4 animate-twinkle">
             <Sparkle className="w-5 h-5 text-white/70" />
+          </FloatEl>
+
+          {/* Floating Thalgo products */}
+          <FloatEl delay={1.4} className="top-8 left-6 md:top-14 md:left-12 z-10">
+            <div className="animate-float">
+              <a
+                href="https://www.thalgo.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pointer-events-auto group block w-24 h-28 md:w-32 md:h-40 rounded-2xl overflow-hidden bg-white shadow-soft-xl border-2 border-white -rotate-6 group-hover:rotate-0 group-hover:scale-105 transition-all duration-500"
+              >
+                <img src="/thalgo_p1.jpg" alt="THALGO — Sérum Désaltérant Intensif 48H" className="w-full h-full object-cover" />
+              </a>
+            </div>
+          </FloatEl>
+          <FloatEl delay={1.7} className="bottom-10 right-6 md:bottom-16 md:right-14 z-10">
+            <div className="animate-float" style={{ animationDelay: '3s' }}>
+              <a
+                href="https://www.thalgo.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="pointer-events-auto group block w-24 h-28 md:w-32 md:h-40 rounded-2xl overflow-hidden bg-white shadow-soft-xl border-2 border-white rotate-6 group-hover:rotate-0 group-hover:scale-105 transition-all duration-500"
+              >
+                <img src="/thalgo_p2.jpg" alt="THALGO — Sérum Intensif Lift-Fermeté" className="w-full h-full object-cover" />
+              </a>
+            </div>
           </FloatEl>
         </div>
       </section>
@@ -298,6 +324,101 @@ function Home() {
 
       {/* ===== FEATURES ===== */}
       <Features />
+
+      {/* ===== PARTNERS ===== */}
+      <section className="section-pad bg-cream-50 relative overflow-hidden">
+        <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-blush-100/60 blur-3xl animate-pulse-soft"></div>
+        <div className="absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-gold-100/50 blur-3xl animate-pulse-soft" style={{ animationDelay: '2s' }}></div>
+        <FloatEl delay={0.6} className="top-16 right-14 animate-petal hidden lg:block">
+          <Petal className="w-8 h-8 text-blush-300/50 -rotate-12" />
+        </FloatEl>
+        <FloatEl delay={1} className="bottom-20 left-14 animate-twinkle hidden lg:block">
+          <Sparkle className="w-6 h-6 text-gold-400/60" />
+        </FloatEl>
+
+        <div className="container-lux relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-16"
+          >
+            <span className="eyebrow mb-4 block">Partenaires</span>
+            <h2 className="font-cormorant text-3xl md:text-5xl font-light tracking-wider text-neutral-900 uppercase">Ils nous accompagnent</h2>
+            <div className="ornament mt-6 max-w-[200px] mx-auto"></div>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-12 md:gap-16 max-w-4xl mx-auto">
+            {/* Thalgo */}
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7 }}
+            >
+              <a
+                href="https://www.thalgo.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block animate-float"
+              >
+                <div className="relative rounded-3xl overflow-hidden shadow-soft-lg group-hover:shadow-soft-xl transition-shadow duration-500 h-60 md:h-72">
+                  <img
+                    src="/thalgo.jpg"
+                    alt="THALGO — Cosmétique marine"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-neutral-900/60 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-0 left-0 right-0 p-5 flex items-end justify-between">
+                    <div>
+                      <p className="font-montserrat text-[10px] tracking-widest2 uppercase text-white/70">Produits partenaires</p>
+                      <p className="font-cormorant text-xl text-white font-light tracking-wider">Cosmétique Marine</p>
+                    </div>
+                    <span className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center text-white group-hover:bg-gold-500 group-hover:border-gold-500 transition-all duration-300">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div className="mx-auto mt-5 h-2.5 w-1/2 rounded-full bg-neutral-900/25 blur-md animate-shadow-pulse"></div>
+            </motion.div>
+
+            {/* Planity */}
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.15 }}
+            >
+              <a
+                href="https://www.planity.com/lart-du-soin-57240-knutange"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block animate-float"
+                style={{ animationDelay: '3s' }}
+              >
+                <div className="relative rounded-3xl overflow-hidden bg-white border border-neutral-100 shadow-soft-lg group-hover:shadow-soft-xl group-hover:border-gold-200 transition-all duration-500 h-60 md:h-72 flex flex-col items-center justify-center gap-4">
+                  <div className="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-blush-100/50 blur-2xl"></div>
+                  <div className="absolute -bottom-10 -left-10 w-32 h-32 rounded-full bg-gold-100/40 blur-2xl"></div>
+                  <div className="relative flex items-center gap-3">
+                    <span className="w-12 h-12 rounded-2xl bg-[#0e2240] flex items-center justify-center shadow-soft">
+                      <span className="font-montserrat font-bold text-2xl text-white leading-none">p</span>
+                    </span>
+                    <span className="font-montserrat font-bold text-3xl md:text-4xl text-[#0e2240] tracking-tight">planity</span>
+                  </div>
+                  <p className="relative font-montserrat text-xs tracking-widest2 uppercase text-neutral-400">Réservation en ligne</p>
+                  <span className="relative inline-flex items-center gap-2 text-xs font-montserrat tracking-widest2 uppercase text-gold-700 group-hover:text-gold-900 border-b border-gold-400 group-hover:border-gold-700 pb-1 transition-all duration-300">
+                    Réserver un soin
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3.5 h-3.5"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                  </span>
+                </div>
+              </a>
+              <div className="mx-auto mt-5 h-2.5 w-1/2 rounded-full bg-neutral-900/25 blur-md animate-shadow-pulse" style={{ animationDelay: '3s' }}></div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
 
       {/* ===== GALLERY BENTO ===== */}
       <section className="section-pad bg-neutral-900 relative overflow-hidden">

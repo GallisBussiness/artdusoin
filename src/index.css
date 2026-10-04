@@ -162,12 +162,23 @@
   50% { opacity: 0.8; transform: scale(1.06); }
 }
 
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes shadowPulse {
+  0%, 100% { transform: scaleX(1); opacity: 0.18; }
+  50% { transform: scaleX(0.8); opacity: 0.08; }
+}
+
 .animate-petal { animation: floatPetal 7s ease-in-out infinite; }
 .animate-petal-alt { animation: floatPetalAlt 9s ease-in-out infinite; }
 .animate-twinkle { animation: twinkle 3s ease-in-out infinite; }
 .animate-spin-slow { animation: spinSlow 24s linear infinite; }
 .animate-spin-slower { animation: spinSlow 40s linear infinite reverse; }
 .animate-pulse-soft { animation: pulseSoft 4s ease-in-out infinite; }
+.animate-float { animation: floatY 6s ease-in-out infinite; }
+.animate-shadow-pulse { animation: shadowPulse 6s ease-in-out infinite; }
 
 .marquee-track {
   display: flex;

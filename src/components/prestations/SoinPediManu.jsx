@@ -50,15 +50,16 @@ function SoinPediManu() {
             Onglerie
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {onglerie.map(renderCard)}
+            {onglerie.slice(0, 4).map(renderCard)}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
-              className="rounded-xl overflow-hidden shadow-soft img-zoom h-64 md:row-span-2 md:h-auto"
+              className="rounded-xl overflow-hidden shadow-soft img-zoom h-64 md:col-span-2 lg:col-span-1 lg:row-span-2 lg:h-auto"
             >
               <img src="/onglerie.jpg" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" alt="Onglerie" />
             </motion.div>
+            {onglerie.slice(4).map(renderCard)}
           </div>
         </div>
 

@@ -187,7 +187,7 @@ const downloadPDF = (formation) => {
         ${daysHtml}
         <div class="footer">
           <p>CK Esthetik — L'Art du Soin</p>
-          <p>Tél : +33 785 153 621 — Email : karina.chirara@gmail.com</p>
+          <p>Tél : +33 785 153 621 — Email : artsoin.ck@gmail.com</p>
           <p><a href="https://www.planity.com/lart-du-soin-57240-knutange">Réserver en ligne via Planity</a></p>
         </div>
         <script>window.onload = function() { window.print(); }<` + `/script>
