@@ -20,7 +20,23 @@ function Contact() {
         setForm({ name: '', email: '', subject: '', message: '' })
     }
 
+    const MAPS_URL = "https://www.google.com/maps/place//@49.3400814,6.0404448,17z/data=!3m1!4b1!4m3!3m2!1s0x47952f8764ae2573:0xc434a05736c2c1c5!12e1?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+
     const contactInfo = [
+        {
+            label: "Adresse",
+            value: "81 Rue de la République, 57240 Knutange",
+            sub: "En face du Norma · Parking gratuit à 10 m",
+            href: MAPS_URL,
+            icon: "M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z",
+        },
+        {
+            label: "Horaires",
+            value: "Lundi – Samedi : 9h00 – 19h00",
+            sub: "Dimanche : fermé · RDV possible",
+            href: "https://www.planity.com/lart-du-soin-57240-knutange",
+            icon: "M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z",
+        },
         {
             label: "Email",
             value: "artsoin.ck@gmail.com",
@@ -86,9 +102,42 @@ function Contact() {
                                     <div>
                                         <h4 className="font-playfiar text-sm tracking-widest2 uppercase text-neutral-400 mb-1">{info.label}</h4>
                                         <p className="font-montserrat text-sm text-neutral-700 group-hover:text-gold-700 transition-colors duration-300">{info.value}</p>
+                                        {info.sub && <p className="font-montserrat text-xs text-neutral-400 mt-1">{info.sub}</p>}
                                     </div>
                                 </a>
                             ))}
+                        </div>
+
+                        {/* Horaires */}
+                        <div className="p-6 rounded-2xl bg-white border border-neutral-100">
+                            <h4 className="font-montserrat text-sm tracking-widest2 uppercase text-neutral-400 mb-4">Horaires d'ouverture</h4>
+                            <div className="space-y-1.5 font-montserrat text-sm">
+                                {[
+                                    { jour: "Lundi", heures: "9h00 – 18h00" },
+                                    { jour: "Mardi", heures: "9h00 – 18h00" },
+                                    { jour: "Mercredi", heures: "9h00 – 18h00" },
+                                    { jour: "Jeudi", heures: "9h00 – 19h00" },
+                                    { jour: "Vendredi", heures: "9h00 – 19h00" },
+                                    { jour: "Samedi", heures: "9h00 – 18h00" },
+                                    { jour: "Dimanche", heures: "Fermé", closed: true },
+                                ].map((h) => (
+                                    <div key={h.jour} className="flex justify-between">
+                                        <span className="text-neutral-600">{h.jour}</span>
+                                        <span className={h.closed ? "text-blush-500" : "text-neutral-900"}>{h.heures}</span>
+                                    </div>
+                                ))}
+                            </div>
+                            <p className="font-montserrat text-xs text-neutral-400 mt-4">Uniquement sur rendez-vous — possibilité de rendez-vous le dimanche.</p>
+                        </div>
+
+                        {/* Moyens de paiement */}
+                        <div className="p-6 rounded-2xl bg-white border border-neutral-100">
+                            <h4 className="font-montserrat text-sm tracking-widest2 uppercase text-neutral-400 mb-4">Moyens de paiement</h4>
+                            <div className="flex flex-wrap gap-x-6 gap-y-2 font-montserrat text-sm text-neutral-700">
+                                <span>CB <span className="text-neutral-400">(dès 50 €)</span></span>
+                                <span>Espèces</span>
+                                <span>Alma <span className="text-neutral-400">— paiement en 3, 4 ou 10 fois</span></span>
+                            </div>
                         </div>
 
                         {/* Social */}
@@ -105,17 +154,26 @@ function Contact() {
                         </div>
 
                         {/* Map */}
-                        <div className="rounded-2xl overflow-hidden shadow-soft border border-neutral-100 h-64">
+                        <div className="rounded-2xl overflow-hidden shadow-soft border border-neutral-100">
                             <iframe
-                                title="Localisation CK Esthetik"
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2600.8689879!2d6.0733!3d49.3293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDE5JzQ1LjQiTiA2wrAwNCcyMC4wIkU!5e0!3m2!1sfr!2sfr!4v1700000000000"
+                                title="Localisation — L'Art du Soin by CK, Knutange"
+                                src="https://www.google.com/maps?q=L'Art%20du%20Soin%2C%2081%20Rue%20de%20la%20R%C3%A9publique%2C%2057240%20Knutange&z=17&output=embed"
                                 width="100%"
-                                height="100%"
+                                height="256"
                                 style={{ border: 0 }}
                                 allowFullScreen=""
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                             />
+                            <a
+                                href={MAPS_URL}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center justify-center gap-2 py-3 bg-white font-montserrat text-xs tracking-widest2 uppercase text-gold-700 hover:text-gold-900 transition-colors duration-300"
+                            >
+                                Ouvrir dans Google Maps
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3.5 h-3.5"><path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
+                            </a>
                         </div>
                     </motion.div>
 
